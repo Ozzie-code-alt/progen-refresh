@@ -120,7 +120,7 @@ const StarshipsAndBrands = () => {
 
     <div className="text-center z-10 mt-60">
         <h1 className="font-moonlander font-black text-md md:text-4xl text-prOrange">
-            BRANDS WE'VE WORKED WITH
+            BRANDS WE&apos;VE WORKED WITH
         </h1>
 
         <div className="mt-10 flex justify-center items-center">

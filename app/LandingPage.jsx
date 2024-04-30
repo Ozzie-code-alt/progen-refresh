@@ -4,8 +4,11 @@ import PageTransition from "@/components/Global/PageTransistion";
 import PrometheusPlayer from "@/components/LandingPage/PrometheusPlayer";
 import Services from "@/components/LandingPage/Services";
 import Footer from "@/components/Global/Footer";
-import StarshipsAndBrands from "@/components/LandingPage/StarshipsAndBrands";
 import StarshipCaptains from "@/components/LandingPage/StarshipCaptains";
+import dynamic from "next/dynamic";
+
+const StarshipandBrandsNoSSR = dynamic(() => import("@/components/LandingPage/StarshipsAndBrands"), { ssr: false });
+
 const LandingPage = () => {
   return (
     <div className="h-auto bg-black overflow-x-hidden w-screen">
@@ -13,7 +16,7 @@ const LandingPage = () => {
         <HeroSection />
         <PrometheusPlayer />
         <Services />
-        <StarshipsAndBrands />
+        <StarshipandBrandsNoSSR />
         <StarshipCaptains />
         <Footer />
       </PageTransition>

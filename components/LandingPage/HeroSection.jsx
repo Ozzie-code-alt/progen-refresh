@@ -100,7 +100,7 @@ const HeroSection = () => {
               </div>
               <div className="w-auto md:w-1/2 mt-52 z-10 mx-10">
                 <h1 className="hidden md:flex md:text-2xl font-ox font-black text-white text-center">
-                  Prometheus is Western Visayas's leading full-service marketing
+                  Prometheus is Western Visayas&apos;s leading full-service marketing
                   agency and public relations firm.
                 </h1>
               </div>

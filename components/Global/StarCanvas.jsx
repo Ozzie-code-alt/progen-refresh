@@ -7,10 +7,12 @@ import { MathUtils, Vector3, TextureLoader } from "three";
 import * as THREE from "three"
 import texturePlanet from "../../public/LandingPageAssets/texture.webp"
 import { OrbitControls } from "@react-three/drei";
-
+import dynamic from "next/dynamic";
 // import {useDeviceDetect} from "../../app/hooks/useDeviceDetect"
 
-import useDeviceDetect from "../../app/hooks/useDeviceDetect";
+
+
+const useDeviceNoSSR = dynamic(() => import("../../app/hooks/useDeviceDetect"), {ssr: false})
 
 const RotatingPlanet = () => {
   const texture = useLoader(THREE.TextureLoader, texturePlanet);
@@ -79,7 +81,7 @@ const Stars = (props) => {
   
 const StarsCanvas = ( {hidden} ) => {
   const controlsRef = useRef();
-  const { isMobile } = useDeviceDetect()
+  const { isMobile } = useDeviceNoSSR()
 
   return (
     <div className="w-full h-full">
