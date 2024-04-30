@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        ox: ['Oxanium', 'Arial', 'sans-serif'],
+        moonlander: ['MBF Moonlander', 'Arial', 'sans-serif'],
+        // Add more font families as needed
+      },
+
+      colors: {
+        customOrange: '#67574C',
+        customGray: '#232323',
+        customGrayLogo: '#8E8E8E',
+        prOrange: '#96895F'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
