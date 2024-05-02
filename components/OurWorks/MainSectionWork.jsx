@@ -3,11 +3,9 @@ import Header from "@/components/Global/HeaderHero";
 import PageTitle from "@/components/Global/PageTitle";
 import { worksData } from "@/app/contants";
 import Link from "next/link";
-import Navbar from "@/components/Global/Navbar";
 const MainSectionWork = () => {
   return (
     <main>
-      <Navbar />
       <Header />
       <PageTitle title="Our Works" />
       <div className="mt-10">

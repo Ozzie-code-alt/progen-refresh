@@ -1,3 +1,5 @@
+"use client"
+
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react';
 
@@ -22,7 +24,7 @@ function TransitionComponent() {
     return (<div className='relative'>
         {
             !animationComplete ? (
-                <div className='fixed inset-0 z-20'>
+                <div className='fixed inset-0 z-30'>
                     <motion.div
                         initial={{ scaleX: scale }}
                         animate={{ scaleX: 0 }}

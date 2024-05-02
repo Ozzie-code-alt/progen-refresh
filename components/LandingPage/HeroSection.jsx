@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import { useState, useEffect } from "react";
-import PageTransition from "@/components/Global/PageTransistion";
+import PageTransition from "@/components/Global/PageTransition";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 import StarsCanvas from "@/components/Global/StarCanvas";
 import backgroundImage from "../../public/LandingPageAssets/astro-bg.jpg"

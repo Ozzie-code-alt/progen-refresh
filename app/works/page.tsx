@@ -1,12 +1,13 @@
-import React from 'react'
-// import MainSectionWindow from "@/components/OurWorks/MainSectionWindow"
-import MainSectionWork from "@/components/OurWorks/MainSectionWork"
+import React from "react";
+import MainSectionWork from "@/components/OurWorks/MainSectionWork";
+import TransitionComponent from "@/components/Global/TransitionComponent";
 const page = () => {
   return (
     <main>
-        <MainSectionWork/>
+      <TransitionComponent />
+      <MainSectionWork />
     </main>
-  )
-}
+  );
+};
 
-export default page
+export default page;
