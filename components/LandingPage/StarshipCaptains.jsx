@@ -81,7 +81,7 @@ const StarshipCaptains = () => {
           onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
         />
         <img
-          src="/landingPageAssets/certificate-04.webp"
+          src="/LandingPageAssets/certificate-04.webp"
           className="h-32 md:h-44 mx-3 my-3  border-2 border-customOrange rounded-lg"
           alt=""
           style={{ transition: "transform 0.3s", cursor: "pointer" }}

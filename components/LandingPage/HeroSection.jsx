@@ -84,18 +84,18 @@ const HeroSection = () => {
               <div className="flex flex-row">
                 <motion.h1
                   initial={{ opacity: 0, y: 20 }}
-                  className="ml-3 text-[#b8a874] text-xl md:text-3xl lg:text-5xl"
+                  className="ml-3  text-white text-xl md:text-3xl lg:text-5xl"
                   style={{ marginLeft: "0.75rem" }} // Adjust the margin for proper alignment
                   animate={{ opacity: 1, y: 0 }} // Animation to show after delay
                   transition={{ duration: 0.8, ease: "easeInOut" }}
                 >
-                  <h1 className="text-white">
+                 
                     {textArray[activeText].substring(0, 3)} {}
                     <span className="text-prOrange">
                       {textArray[activeText].substring(3)}{" "}
                       {/* Removing 'BE ' from the glitched text */}
                     </span>
-                  </h1>
+                
                 </motion.h1>
               </div>
               <div className="w-auto md:w-1/2 mt-52 z-10 mx-10">
