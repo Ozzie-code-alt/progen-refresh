@@ -19,7 +19,7 @@ const LandingPage = () => {
       <PageTransition>
         <Navbar />
         <HeroSection />
-        <div className="px-20 w-full">
+        <div className="w-full">
           <div className="flex justify-center items-center">
             <PrometheusPlayer />
           </div>

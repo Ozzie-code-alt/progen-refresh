@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 const PrometheusPlayer = () => {
   return (
-    <div className="flex  w-screen   items-center justify-center  ">
+    <div className="flex  w-screen  items-center justify-center  ">
         <ReactPlayer
           url={
             "https://www.facebook.com/watch/?v=208857277659564&paipv=0&eav=AfZnkXw8Agx0_8SofVSoaVrc6iLN64-s3su8ZL3G7KX70DYIXT4HnIHtHRzSxNQNs8A&ref=embed_video&_rdr"
