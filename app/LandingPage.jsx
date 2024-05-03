@@ -7,20 +7,23 @@ import Footer from "@/components/Global/Footer";
 import StarshipCaptains from "@/components/LandingPage/StarshipCaptains";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Global/Navbar";
-import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter"
-const StarshipandBrandsNoSSR = dynamic(() => import("@/components/LandingPage/StarshipsAndBrands"), { ssr: false });
+import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
+const StarshipandBrandsNoSSR = dynamic(
+  () => import("@/components/LandingPage/StarshipsAndBrands"),
+  { ssr: false }
+);
 
 const LandingPage = () => {
   return (
-    <div className="h-auto bg-black overflow-x-hidden w-screen">
+    <div className="h-auto bg-black overflow-x-hidden w-auto">
       <PageTransition>
-        <Navbar/>
+        <Navbar />
         <HeroSection />
         <PrometheusPlayer />
         <Services />
         <StarshipandBrandsNoSSR />
         <StarshipCaptains />
-        <ThreeColumnFooter/>
+        <ThreeColumnFooter />
         <Footer />
       </PageTransition>
     </div>

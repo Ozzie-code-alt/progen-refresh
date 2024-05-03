@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Oxanium } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const oxaniumFont = Oxanium({ weight: '700',subsets: ["latin"], });
 
 export const metadata: Metadata = {
   title: "Prometheus PH",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} overflow-x-hidden h-auto`}>
+      <body className={`${oxaniumFont.className} overflow-x-hidden  w-auto h-auto`}>
         {" "}
         {children}
         

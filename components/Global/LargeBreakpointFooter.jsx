@@ -32,7 +32,7 @@ const ThreeColumnFooter = () => {
         <div className="hidden lg:flex flex-wrap justify-between">
           <FooterColumn>
             <div className="flex items-center justify-center lg:justify-start">
-              <img src="/logoNavbar.png" className="w-52" alt="Logo" />
+              <img src="/LandingPageAssets/logoNavbar.png" className="w-52" alt="Logo" />
             </div>
             <p className="mt-4 max-w-xs font-medium text-sm mx-auto lg:mx-0 lg:mr-4 leading-loose text-center lg:text-left">
               Daily Guardian <br />

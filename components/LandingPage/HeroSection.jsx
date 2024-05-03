@@ -60,16 +60,16 @@ const HeroSection = () => {
     const [textArray] = useState(gen);
   return (
     <PageTransition>
-      <div >
+      <div className="overflow-hidden" >
         <div className="relative flex justify-center items-center">
-          <div className="w-full md:w-screen  h-auto md:h-screen">
+          <div className="w-full md:w-auto h-auto md:h-screen">
             <LazyLoadImage
               loading="lazy"
               alt={"background image"}
               src="/LandingPageAssets/astro-bg.jpg"
               effect="blurry"
-              className="w-full h-auto md:w-screen md:h-screen object-cover"
-              placeholderSrc={backgroundImage}
+              className="w-full h-auto md:w-screen  md:h-screen object-cover"
+              placeholderSrc="/LandingPageAssets/astro-bg.jpg"
             />
           </div>
 
