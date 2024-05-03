@@ -15,11 +15,15 @@ const StarshipandBrandsNoSSR = dynamic(
 
 const LandingPage = () => {
   return (
-    <div className="h-auto bg-black overflow-x-hidden w-auto">
+    <div className="h-auto w-full flex flex-col justify-center  bg-black overflow-x-hidden ">
       <PageTransition>
         <Navbar />
         <HeroSection />
-        <PrometheusPlayer />
+        <div className="px-20 w-full">
+          <div className="flex justify-center items-center">
+            <PrometheusPlayer />
+          </div>
+        </div>
         <Services />
         <StarshipandBrandsNoSSR />
         <StarshipCaptains />
