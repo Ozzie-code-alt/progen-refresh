@@ -3,12 +3,14 @@ import Header from "@/components/Global/HeaderHero";
 import PageTitle from "@/components/Global/PageTitle";
 import { worksData } from "@/app/contants";
 import Link from "next/link";
+import Footer from "@/components/Global/Footer";
+import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
 const MainSectionWork = () => {
   return (
     <main>
       <Header />
       <PageTitle title="Our Works" />
-      <div className="mt-10">
+      <div className="mt-10 mb-10">
         <div className="flex flex-row flex-wrap justify-center mx-10">
           {worksData.map((works, index) => {
             return (
@@ -32,6 +34,8 @@ const MainSectionWork = () => {
           })}
         </div>
       </div>
+      <ThreeColumnFooter/>
+      <Footer />
     </main>
   );
 };
