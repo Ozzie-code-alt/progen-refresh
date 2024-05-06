@@ -10,7 +10,7 @@ const BlogDescription = () => {
       <div className=" lg:mr-5 py-10">
         <div className="w-full px-20 pb-10 flex justify-center  items-center ">
           <img
-            src="/blogs/TheBeautyoftheStruggle/InterstellarGroupPhoto.webp"
+            src="/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp"
             className="w-[400px] sm:w-full rounded-2xl"
           />
         </div>
@@ -32,11 +32,11 @@ const BlogDescription = () => {
             </p>
             <div className="w-full flex flex-col space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row justify-center items-center  ">
               <img
-                src="/blogs/TheBeautyoftheStruggle/LCIDANDGINO2.webp"
+                src="/BlogsAssets/BeautyOfStruggleBlogs/LCIDANDGINO2.webp"
                 className="w-[250px] h-[250px] rounded-2xl"
               />
               <img
-                src="/blogs/TheBeautyoftheStruggle/lcid-gino3.webp"
+                src="/BlogsAssets/BeautyOfStruggleBlogs/lcid-gino3.webp"
                 className="w-[450px] h-[150px] lg:h-[250px] rounded-2xl"
               />
             </div>
@@ -97,7 +97,7 @@ const BlogDescription = () => {
 
             <div className="w-full pb-10  flex justify-center items-center  ">
               <img
-                src="/blogs/TheBeautyoftheStruggle/Lcidtrophy2.webp"
+                src="/BlogsAssets/BeautyOfStruggleBlogs/Lcidtrophy2.webp"
                 className="w-[600px] rounded-2xl"
               />
             </div>
@@ -120,7 +120,7 @@ const BlogDescription = () => {
 
           <div className="w-full pb-10 pt-10  flex justify-center items-center  ">
             <img
-              src="/blogs/TheBeautyoftheStruggle/PrometheusMothership2.webp"
+              src="/BlogsAssets/BeautyOfStruggleBlogs/PrometheusMothership2.webp"
               className="w-[600px] rounded-2xl"
             />
           </div>

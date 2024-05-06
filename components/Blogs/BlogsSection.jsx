@@ -65,7 +65,7 @@ const BlogsSection = () => {
           />
         </div>
         <div className="w-full md:w-[40%] flex flex-col md:ml-14 my-4 mr-4 space-y-4">
-          <Link href={"/beautyofthestruggle"}>
+          <Link href={"/blog/BeautyofTheStruggle"}>
             <h1 className=" text-xl md:text-3xl text-white font-bold  cursor-pointer">
               <span className="uppercase">The Beauty of the Struggle: </span>
               How the Prometheus founder launched an award-winning marketing

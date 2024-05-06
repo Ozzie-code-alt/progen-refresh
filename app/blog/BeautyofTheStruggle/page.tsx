@@ -15,16 +15,10 @@ const TheBeautyoftheStruggle = () => {
   const navigate = useRouter();
 
   const handleNavigation = () => {
-    navigate.push("/blogs");
+    navigate.push("/blog");
   };
 
-  const ogData = {
-    title: "Your Page Title",
-    description: "Description of your page content.",
-    url: "https://www.yourwebsite.com",
-    image: "https://www.yourwebsite.com/og-image.jpg",
-    siteName: "Your Website Name",
-  };
+
   return (
     <main>
       <PageTransition>

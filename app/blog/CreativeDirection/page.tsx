@@ -15,7 +15,7 @@ const GinoBlog = () => {
   const navigate = useRouter();
 
   const handleNavigation = () => {
-    navigate.push("/blogs");
+    navigate.push("/blog");
   };
   return (
     <main>
