@@ -8,11 +8,12 @@ import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
 const MainSectionBlogs = () => {
   return (
     <div>
-      <Navbar />
       <Header />
       <PageTitle title="Blogs" />
-      <BlogsSection/>
-      <ThreeColumnFooter/>
+      <div className="z-0 relative">
+        <BlogsSection />
+      </div>
+      <ThreeColumnFooter />
       <Footer />
     </div>
   );
