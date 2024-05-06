@@ -43,8 +43,8 @@ const GinoBlog = () => {
                   </h1>
                   <p className="text-[#FFFFFF] text-[20px] text-wrap text-opacity-[63%]  font-ox">
                     {" "}
-                    Gino Fanega's journey as an Executive Creative Director at
-                    Western Visayas' 1st full-service marketing agency shows
+                    Gino Fanega&apos;s journey as an Executive Creative Director at
+                    Western Visayas&apos; 1st full-service marketing agency shows
                     finding creativity in marketing.
                   </p>
                 </div>
