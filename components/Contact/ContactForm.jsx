@@ -98,7 +98,7 @@ const ContactForm = () => {
         </h1>
 
         <div className="flex flex-row font-md text-md lg:text-lg xl:text-xl space-x-4 text-gray-500 px-10 mt-3">
-          Kick your brand into hyperdrive with the best minds and tools at your disposal. We're aiming for greatness.
+          Kick your brand into hyperdrive with the best minds and tools at your disposal. We&apos;re aiming for greatness.
         </div>
         <div className="w-4/5 border-b-2 h-2 flex-grow mt-5 px-10 border-customOrange hidden sm:flex"></div>
         <div className="md:flex flex-row w-full md:space-x-10 m-10 ">
