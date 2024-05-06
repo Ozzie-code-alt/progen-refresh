@@ -15,7 +15,7 @@ const MainSectionWork = () => {
           {worksData.map((works, index) => {
             return (
               <div className="w-full md:w-1/3 relative group" key={index}>
-                <Link href={`#`}>
+                <Link href={`/works/subpage?index=${index}`}>
                   <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-80 transition-opacity duration-300 ease-in"></div>
                   <div className="absolute inset-0 bg-black opacity-20"></div>
                   <img

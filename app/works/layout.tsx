@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/Global/Navbar";
 import "../globals.css"
 
 import { Oxanium } from "next/font/google";
@@ -19,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-black overflow-x-hidden ${oxaniumFont.className}`} >
-        <Navbar />
         {children}
       </body>
     </html>
