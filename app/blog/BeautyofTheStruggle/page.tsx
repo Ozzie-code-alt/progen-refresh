@@ -42,7 +42,7 @@ const TheBeautyoftheStruggle = () => {
                 <div className="flex px-10 flex-col  justify-center text-left">
                   <h1 className="text-[#FFFFFF] font-bold text-[30px] text-wrap md:text-[50px] tex lg:text-[57px]  uppercase font-ox">
                     The Beauty <br />
-                    of the Struggle:
+                    of the Struggle
                   </h1>
                   <p className="text-[#FFFFFF] text-[20px] text-wrap    text-opacity-[63%]  font-ox">
                     {" "}

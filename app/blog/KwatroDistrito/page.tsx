@@ -42,7 +42,7 @@ const KwartoDistritoBlog = () => {
                 <div className="flex px-10 flex-col   justify-center text-left">
                   <h1 className="text-[#FFFFFF] font-bold text-[30px] text-wrap md:text-[50px] lg:text-[57px] uppercase font-ox">
                     Bugal sang <br />
-                    kwatro distrito:
+                    kwatro distrito
                   </h1>
                   <p className="text-[#FFFFFF] text-[20px] text-wrap text-opacity-[63%]  font-ox">
                     {" "}
