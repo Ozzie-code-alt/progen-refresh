@@ -15,8 +15,8 @@ const Navbar = () => {
     setSidebarOpen(!sidebarOpen);
   };
   return (
-    <div className="fixed w-[90%] py-10 z-20 overflow-x-hidden font-bold font-ox ">
-      <div className="hidden md:flex justify-between items-center w-[90%] gap-10 ">
+    <div className="fixed w-[90%] py-10 z-20 overflow-y-hidden font-bold font-ox ">
+      <div className="hidden lg:flex justify-between items-center w-[90%] gap-10 ">
         <Image
           src={"/LandingPageAssets/logoNavbar.png"}
           height={100}
@@ -34,7 +34,7 @@ const Navbar = () => {
         ))}
       </div>
 
-      <div className="flex md:hidden">
+      <div className="flex lg:hidden">
       <div className={``}>
         {!sidebarOpen ? <button
           onClick={toggleSidebar}

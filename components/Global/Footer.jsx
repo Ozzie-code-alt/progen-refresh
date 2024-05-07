@@ -22,7 +22,7 @@ const SocialLink = ({ href, children }) => (
 const Footer = () => {
   return (
     <div className="bg-customGray  overflow-x-hidden text-gray-100">
-      <div className="max-w-screen-xl mx-auto py-6 lg:py-6">
+      <div className="max-w-screen-xl mx-auto py-6 pt-10 lg:py-6">
         <div className="lg:hidden flex flex-col items-center justify-center px-8">
           <div className="flex justify-center md:justify-start">
             <img src="/LandingPageAssets/logo.png" alt="Logo" className="w-52" />
@@ -31,7 +31,7 @@ const Footer = () => {
             <FooterLink href="/">Home</FooterLink>
             <FooterLink href="/works">Our Works</FooterLink>
             <FooterLink href="/about">About Us</FooterLink>
-            <FooterLink href="/blogs">Blogs</FooterLink>
+            <FooterLink href="/blog">Blogs</FooterLink>
             <FooterLink href="/recon">Recon</FooterLink>
             <FooterLink href="/contact">Contact Us</FooterLink>
           </div>

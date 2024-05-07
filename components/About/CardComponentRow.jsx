@@ -1,6 +1,7 @@
 
 import TypeWriterEffect from './TypewriterEffect';
-
+import { Oxanium } from 'next/font/google';
+const OxaniumFont = Oxanium({ weights: 100, subsets: ["latin"] });
 const CardComponentRow = ({
   title,
   content,
@@ -9,7 +10,7 @@ const CardComponentRow = ({
 }) => {
   
   return (
-    <div className={`box-border flex justify-center font-ox`}>
+    <div className={`box-border flex justify-center ${OxaniumFont.className}`}>
       <div class="mt-4">
         <div class={`
           flex items-start justify-center 

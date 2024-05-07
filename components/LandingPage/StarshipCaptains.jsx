@@ -2,6 +2,11 @@
 import React from 'react'
 import StarsCanvas from '../Global/StarCanvas';
 import StoryTellers from './StoryTellers';
+import {Oxanium} from 'next/font/google';
+import localFont from 'next/font/local';
+const OxaniumFont = Oxanium({ weights: 100, subsets: ["latin"] });
+const MoonlanderFont = localFont({src:'../../Fonts/Moonlander.ttf'});
+
 const StarshipCaptains = () => {
   return (
     <div className="flex flex-col items-center justify-center relative">
@@ -26,13 +31,13 @@ const StarshipCaptains = () => {
     </div>
 
     <div className="w-3/5 mb-52 mt-52 z-10">
-      <h1 className="text-xl md:text-4xl font-ox text-white text-center">
+      <h1 className={`text-xl md:text-4xl ${OxaniumFont.className} text-white text-center`}>
         To forever chase excellence with curiosity as our guide.
       </h1>
     </div>
 
     <div className="w-full text-center z-10">
-      <h1 className="font-moonlander font-black text-xl md:text-5xl text-prOrange">
+      <h1 className={`${MoonlanderFont.className} font-black text-xl md:text-5xl text-prOrange`}>
         MEET OUR STARSHIP CAPTAINS
       </h1>
 
@@ -40,7 +45,7 @@ const StarshipCaptains = () => {
     </div>
 
     <div className="w-3/5 text-center z-10 mt-40 mmb-10">
-      <h1 className="font-moonlander font-black text-xl md:text-4xl text-prOrange">
+      <h1 className={`${MoonlanderFont.className} font-black text-xl md:text-4xl text-prOrange`}>
         CERTIFICATION AND AWARDS
       </h1>
     </div>

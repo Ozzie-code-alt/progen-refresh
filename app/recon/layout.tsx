@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/Global/Navbar";
+
 import "../globals.css"
 
 import { Oxanium } from "next/font/google";
+import NavbarGroup from "@/components/Global/NavbarGroup";
 
 const oxaniumFont = Oxanium({ weight: '700',subsets: ["latin"], });
 
 export const metadata: Metadata = {
-  title: "Prometheus PH - Our Works Page",
-  description: "OurWorks Page",
+  title: "Prometheus PH - Recon Page",
+  description: "Recon Page",
 };
 
 export default function RootLayout({
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-black overflow-x-hidden ${oxaniumFont.className}`} >
-        <Navbar />
+        <NavbarGroup/>
         {children}
       </body>
     </html>

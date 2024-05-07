@@ -28,7 +28,7 @@ const FooterColumn = ({ children }) => (
 const ThreeColumnFooter = () => {
   return (
     <div className="relative bg-customGray text-gray-100 -mb-8 px-8 font-ox">
-      <div className="max-w-screen-xl pt-8 pb-8 md:mx-4 xl:mx-auto">
+      <div className="max-w-screen-xl hidden lg:flex lg:flex-col pt-8 pb-8 md:mx-4 xl:mx-auto">
         <div className="hidden lg:flex flex-wrap justify-between">
           <FooterColumn>
             <div className="flex items-center justify-center lg:justify-start">
@@ -70,7 +70,7 @@ const ThreeColumnFooter = () => {
                 <FooterLink href="/about">About Us</FooterLink>
               </li>
               <li className="mt-3">
-                <FooterLink href="/blogs">Blogs</FooterLink>
+                <FooterLink href="/blog">Blog</FooterLink>
               </li>
               <li className="mt-3">
                 <FooterLink href="/recon">Recon</FooterLink>

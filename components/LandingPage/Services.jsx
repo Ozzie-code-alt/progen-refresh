@@ -2,6 +2,9 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
+import localFont from 'next/font/local';
+const MoonlanderFont = localFont({src:'../../Fonts/Moonlander.ttf'});
+
 const items = [
     'Strategy',
     'Digital Marketing',
@@ -44,7 +47,7 @@ function Services() {
                 }}
                 exit={{ opacity: 0, y: -20 }}
                 >
-                <h1 className="font-moonlander font-black justify-center text-md md:text-4xl text-prOrange mb-20">
+                <h1 className={`${MoonlanderFont.className} font-black justify-center text-md md:text-4xl text-prOrange mb-20`}>
                     SERVICES
                 </h1>
                 <div className="relative font-ox text-md md:text-4xl text-white">

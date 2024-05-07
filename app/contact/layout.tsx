@@ -7,8 +7,8 @@ import { Oxanium } from "next/font/google";
 const oxaniumFont = Oxanium({ weight: '700',subsets: ["latin"], });
 
 export const metadata: Metadata = {
-  title: "Prometheus PH - Our Works Page",
-  description: "OurWorks Page",
+  title: "Prometheus PH - Contacts Page",
+  description: "Contacts Page",
 };
 
 export default function RootLayout({

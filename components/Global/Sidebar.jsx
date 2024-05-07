@@ -1,7 +1,10 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { Oxanium } from 'next/font/google';
 // import logo from '../assets/images/logo.png';
+const OxaniumFont = Oxanium({ weights: 700, subsets: ['latin'] });
+
 
 const Sidebar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -65,35 +68,35 @@ const Sidebar = () => {
             </button>
           </div>
 
-          <img className="w-36 mr-4" src={"/BlogsAssets/landscape_map.webp"} alt="Logo" />
+          <img className="w-36 mr-4" src={"/logo.png"} alt="Logo" />
 
 
         </div>
         <div className="flex flex-col space-y-2">
           <Link
             href="/"
-            className={`text-sm font-bold font-ox px-4 py-2 hover:underline`}
+            className={`text-sm text-white font-bold ${OxaniumFont.className} px-4 py-2 hover:underline`}
           >
             HOME
           </Link>
 
           <Link
             href="/works"
-            className={`text-sm font-bold font-ox px-4 py-2 hover:underline`}
+            className={`text-sm font-bold text-white  ${OxaniumFont.className}  px-4 py-2 hover:underline`}
           >
             OUR WORKS
           </Link>
 
           <Link
             href="/about"
-            className={`text-sm font-bold font-ox px-4 py-2  hover:underline`}
+            className={`text-sm font-bold text-white  ${OxaniumFont.className}  px-4 py-2  hover:underline`}
           >
             ABOUT US
           </Link>
 
           <Link
             href="/blogs"
-            className={`text-sm font-bold font-ox px-4 py-2  hover:underline`}
+            className={`text-sm font-bold text-white  ${OxaniumFont.className}  px-4 py-2  hover:underline`}
           >
             BLOGS
           </Link>
@@ -101,14 +104,14 @@ const Sidebar = () => {
 
           <Link
             href="/recon"
-            className={`text-sm font-bold font-ox px-4 py-2  hover:underline`}
+            className={`text-sm font-bold text-white  ${OxaniumFont.className}  px-4 py-2  hover:underline`}
           >
             RECON
           </Link>
 
           <Link
             href="/contact"
-            className={`text-sm font-bold font-ox px-4 py-2 hover:underline`}
+            className={`text-sm font-bold text-white  ${OxaniumFont.className}  px-4 py-2 hover:underline`}
           >
             CONTACT US
           </Link>

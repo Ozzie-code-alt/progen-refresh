@@ -5,14 +5,15 @@ import CardComponentSection from '@/components/About/CardComponentSection'
 import StarShipsSection from '@/components/About/StarShipSection'
 import Footer from '@/components/Global/Footer'
 import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter"
-import Narbar from "@/components/Global/Navbar"
+
+import NavbarGroup from '../Global/NavbarGroup'
 const MainSectionAbout = () => {
   return (
     <main>
     
-     <Narbar/>
+     <NavbarGroup/>
       <Header />
-      <PageTitle title="Our Works" />
+      <PageTitle title="About" />
       <CardComponentSection/>
       <PageTitle title="StarShips" />
       <StarShipsSection/>

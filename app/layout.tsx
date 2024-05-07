@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Oxanium } from "next/font/google";
 
-const oxaniumFont = Oxanium({ weight: '700',subsets: ["latin"], });
+const oxaniumFont = Oxanium({ weight: '500',subsets: ["latin"], });
 
 export const metadata: Metadata = {
   title: "Prometheus PH",

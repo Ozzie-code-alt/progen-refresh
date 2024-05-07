@@ -6,6 +6,11 @@ import StarshipLanding from  "@/components/LandingPage/StarshipLanding"
 import StarsCanvas from '../Global/StarCanvas';
 import { useInView } from 'react-intersection-observer';
 import UnderlineWord from "@/components/LandingPage/UnderLineWord"
+import { Oxanium } from 'next/font/google';
+import localFont from 'next/font/local';
+const OxaniumFont = Oxanium({ weights: 100, subsets: ["latin"] });
+const MoonlanderFont = localFont({src:'../../Fonts/Moonlander.ttf'});
+
 const StarshipsAndBrands = () => {
     const starshipsLogos = ['CORTX', 'CRAETR', 'JPEP', 'NERV', 'SPECTR', 'WARP', 'PROMISES']
     const [activeShip, setActiveShip] = useState(null)
@@ -25,18 +30,16 @@ const StarshipsAndBrands = () => {
 
 
     <div className="text-center z-10 mt-40">
-        <h1 className="font-moonlander font-black text-xl md:text-6xl text-prOrange">
+        <h1 className={`${MoonlanderFont.className} font-black text-xl md:text-6xl text-prOrange`}>
             STARSHIPS
         </h1>
 
-        <motion.h1 className="font-moonlander font-black text-xl md:text-2xl text-white mt-10"
+        <motion.h1 className={`${MoonlanderFont.className} font-black text-xl md:text-2xl text-white mt-10`}
             transition={{ duration: 0.5, ease: 'easeInOut' }}
         >
             {starshipsLogos[activeShip]}
         </motion.h1>
         <div className="mb-20">
-            {/* <Starships size={'44'} landing={true} setActiveShip={setActiveShip} /> */}
-
             <StarshipLanding size={'44'} />
 
         </div>
@@ -45,7 +48,7 @@ const StarshipsAndBrands = () => {
     <div className="absolute inset-0 z-0">
         <StarsCanvas hidden={true} />
     </div>
-    <div className="mb-52 mt-24 px-5 md:px-0 z-10 w-auto flex flex-col items-center text-center justify-center text-md sm:text-xl md:text-4xl lg:text-5xl text-white font-moonlander">
+    <div className={`mb-52 mt-24 px-5 md:px-0 z-10 w-auto flex flex-col items-center text-center justify-center text-md sm:text-xl md:text-4xl lg:text-5xl text-white ${MoonlanderFont.className}`}>
 
         <div className="relative w-auto mt-24">
             <motion.span
@@ -104,7 +107,7 @@ const StarshipsAndBrands = () => {
 
 
     <div className="w-3/5 text-center z-10">
-        <h1 className="text-sm md:text-4xl text-white text-center font-moonlander">
+        <h1 className={`text-sm md:text-4xl text-white text-center ${MoonlanderFont.className}`}>
 
 
 
@@ -119,7 +122,7 @@ const StarshipsAndBrands = () => {
     </div>
 
     <div className="text-center z-10 mt-60">
-        <h1 className="font-moonlander font-black text-md md:text-4xl text-prOrange">
+        <h1 className={`${MoonlanderFont.className} font-black text-md md:text-4xl text-prOrange`}>
             BRANDS WE&apos;VE WORKED WITH
         </h1>
 
