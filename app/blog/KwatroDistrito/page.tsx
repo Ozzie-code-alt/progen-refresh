@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import PageTransition from "@/components/Global/PageTransition";
@@ -10,12 +10,14 @@ import { useRouter } from "next/navigation";
 import Footer from "@/components/Global/Footer";
 import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
 
+
 const KwartoDistritoBlog = () => {
   const navigate = useRouter();
 
   const handleNavigation = () => {
     navigate.push("/blog");
   };
+
 
   return (
     <main>
@@ -40,7 +42,7 @@ const KwartoDistritoBlog = () => {
                 <div className="flex px-10 flex-col   justify-center text-left">
                   <h1 className="text-[#FFFFFF] font-bold text-[30px] text-wrap md:text-[50px] lg:text-[57px] uppercase font-ox">
                     Bugal sang <br />
-                    kwaRto distrito:
+                    kwatro distrito:
                   </h1>
                   <p className="text-[#FFFFFF] text-[20px] text-wrap text-opacity-[63%]  font-ox">
                     {" "}
@@ -55,7 +57,6 @@ const KwartoDistritoBlog = () => {
                     Prometheus
                   </p>
                 </div>
-
               </div>
             </div>
 
