@@ -31,11 +31,13 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
   };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,6 +45,8 @@ const ContactForm = () => {
       toast.error('Please select at least one service.');
       return;  // Prevent form submission if no service is selected
     }
+
+
     setFormData({
       firstName: '',
       lastName: '',
@@ -52,10 +56,13 @@ const ContactForm = () => {
       services: [],
     });
 
+
+    console.log("this is form Data", formData);
+
     sendEmail({
-      firstName: formData.firstName,
-      lastName: formData.lastName,
-      email: formData.email,
+      from_name: "Prometheus",
+      to_name: formData.firstName + " " + formData.lastName,
+      user_email: formData.email,
       number: formData.number,
       message: `
         ${formData.message}

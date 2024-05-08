@@ -1,21 +1,23 @@
 import emailjs from '@emailjs/browser';
-
+const EMAILJS_SERVICE_ID='service_om4c63p'
+const EMAILJS_TEMPLATE_ID='template_z215hiq'
+const EMAILJS_PUBLIC_KEY='PLUpOPXsxh7LK5A-e'
 
 const sendEmail = ({
-  firstName,
-  lastName,
-  email,
+  from_name,
+  to_name,
+  user_email,
   message,
   number
 }) => {
-  emailjs.send(process.env.EMAILJS_SERVICE_ID, process.env.EMAILJS_TEMPLATE_ID, {
-    firstName, 
-    lastName,
-    email,
+  emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+    from_name,
+    to_name,
+    user_email,
     message,
     number
     },
-    process.env.EMAILJS_PUBLIC_KEY,                
+    EMAILJS_PUBLIC_KEY,                
   ) 
     .then(function(response) {
     console.log('SUCCESS!', response.status, response.text);

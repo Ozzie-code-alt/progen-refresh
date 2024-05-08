@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "../globals.css"
 
 export const metadata: Metadata = {
-  title: "Prometheus PH - Our Works Page",
+  title: "Prometheus PH - Blogs Page",
   description: "OurWorks Page",
 };
 
