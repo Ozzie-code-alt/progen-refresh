@@ -2,8 +2,8 @@
 import React,{useState} from 'react'
 import { motion } from 'framer-motion'
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import  sendEmail from "../Contact/emailAPI"
+import 'react-toastify/ReactToastify.css'
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -40,9 +40,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.services.length === 0) {
-      toast.error('Please select at least one service.', {
-        position: toast.POSITION.BOTTOM_RIGHT,
-      });
+      toast.error('Please select at least one service.');
       return;  // Prevent form submission if no service is selected
     }
     setFormData({
@@ -69,10 +67,7 @@ const ContactForm = () => {
       `,
     });
 
-    toast.success('Email has been sent!', {
-      position: toast.POSITION.BOTTOM_RIGHT,
-    });
-
+    toast.success('Email has been sent!');
 
   };
 
