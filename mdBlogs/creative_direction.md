@@ -6,41 +6,65 @@ description: "Gino Fanega's journey as an Executive Creative Director at Western
 blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
 ---
 
-# Cinnamon Rolls
+<div style="display: flex;
+    flex-direction: column;
+    gap: 2.5rem;">
 
-## Ingredients
+<img src="/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
-### Dough
-- 1 cup (240ml) warm milk (about 110°F or 45°C)
-- 2 1/4 teaspoons active dry yeast
-- 1/2 cup (100g) granulated sugar
-- 1/2 cup (115g) unsalted butter, melted
-- 2 large eggs
-- 4 cups (500g) all-purpose flour
-- 1 teaspoon salt
+<p style="color: white; font-size: 28px; ">
+  In 2019, Prometheus' story began with its founder Lcid Fernandez being told by his mentors from various industries, including his father, that a social media marketing agency would never work in Western Visayas, much less Iloilo City. When he pitched his idea for seed capital, he was denied.
+</p>
 
-### Filling
-- 1 cup (200g) brown sugar, packed
-- 3 tablespoons ground cinnamon
-- 1/3 cup (75g) unsalted butter, softened
+<p style="color: white; font-size: 28px; ">
+  Undaunted, Lcid launched Prometheus from his bedroom with mostly DIY equipment. Then, he was simply Lcid the start-up founder, trying to get his digital marketing company off the ground in the middle of a pandemic.
+</p>
 
-### Icing
-- 1 cup (120g) powdered sugar
-- 2 tablespoons milk
-- 1/2 teaspoon vanilla extract
+<img src="/BlogsAssets/BeautyOfStruggleBlogs/LCIDANDGINO2.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
-## Instructions
+<p style="color: white; font-size: 28px; ">
+  It was during this time as well that he rose to become the VP External of Daily Guardian, a regional daily newspaper. What was a traditional and conservative media outlet quickly became the most innovative media platform in the region. Combining both his roles as Prometheus CEO and Daily Guardian VP External, Lcid created several product lines and content series' that modernized Daily Guardian's reporting, and introduced a storytelling platform that felt closer to its audiences.
+</p>
 
-1. **Prepare the dough:** In a large bowl, dissolve the yeast in warm milk. Add sugar, melted butter, eggs, flour, and salt. Knead until the dough is smooth and elastic. Cover and let rise in a warm place until doubled in size, about 1 hour.
+<p style="color: white; font-size: 28px; ">
+  In this period, Daily Guardian's digital organic reach grew from 700 to over 10 million people monthly, with his work being recognized in his nomination as Newsmaker of the Year in the Globe Media Excellence Awards. Daily Guardian went on to be perennially recognized by its national and international colleagues for its innovative and responsible journalism.
+</p>
 
-2. **Make the filling:** In a small bowl, combine brown sugar and cinnamon.
+<p style="color: white; font-size: 28px; ">
+  Almost five years later, Prometheus grew from its humble 3 digital marketers working out of a bedroom to a team of 50 idea engineers leading the industry in its locality. Prometheus has evolved from a digital marketing agency into becoming the only award-winning full-service marketing agency and public relations firm based in Western Visayas.
+</p>
 
-3. **Assemble the rolls:** Roll out the dough on a floured surface into a 16x21-inch rectangle. Spread softened butter over the dough, then sprinkle evenly with the cinnamon-sugar mixture. Roll up the dough tightly and cut into 12 rolls.
+<p style="color: white; font-size: 28px; ">
+  The results that Prometheus has delivered have been recognized not just by its clients, but by the industry itself. Lcid is the first Ilonggo to ever win the Marketing Leader of the Year Award at the Marketing Excellence Awards (MEA) Philippines. In 2023 alone, he also received the following recognitions:
+</p>
 
-4. **Bake:** Place the rolls in a greased 9x13-inch baking pan. Cover and let rise again until nearly doubled, about 30 minutes. Preheat the oven to 350°F (175°C). Bake the rolls for 20-25 minutes or until golden brown.
+<ul style="color: white; font-size: 20px">
+<li> - Innovative Entrepreneur of the Year at the IlonggoEntrepreneur Awards 2023 </li>
+<li> - Dungganon nga Barotacnon Awardee for Entrepreneurship by the Municipality of Barotac Nuevo and JCI Barotac Nuevo Tamasak </li>
+<li> - Nominated in the ASEAN Business Awards</li> 
+<li> - Nominated in the INJAP Young Ilonggo Entrepreneur Awards </li>
+</ul>
 
-5. **Prepare the icing:** In a small bowl, whisk together powdered sugar, milk, and vanilla extract until smooth.
+![Image](/BlogsAssets/BeautyOfStruggleBlogs/Lcidtrophy2.webp)
 
-6. **Finish:** Drizzle icing over warm cinnamon rolls before serving.
+<p style="color: white; font-size: 28px; ">
+  Lcid's story is one of perseverance and defying limitations. He has always said, “The struggle to get from where you are to where you want to be is what makes the journey beautiful.”
+</p>
 
-Enjoy your delicious homemade cinnamon rolls!
+<p style="color: white; font-size: 28px; ">
+  He has led the marketing revolution in Iloilo, evidenced by data-backed conversion strategies and industrial impact. His journey, born from rejection — serves as an inspiration — proving that success often lies beyond the comfort zone, waiting to be seized by those who dare to go through the struggle.
+</p>
+
+<img src="/BlogsAssets/BeautyOfStruggleBlogs/PrometheusMothership2.webp" alt="Descriptive Text" style="border-radius: 15px;">
+
+<div style="color: white; font-size: 15px; display: flex; flex-direction: column;  gap: 2.5rem;  ">
+   <ul style="color: white; font-size: 20px">
+<li> -  Read Lcid's column on <a href="https://dailyguardian.com.ph/category/opinion/prometheus/" style="color: blue;">Daily Guardian</a> and connect with him on <a href="https://ph.linkedin.com/in/lcidfernandez" style="color: blue;">LinkedIn</a>. </li>
+<li> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" style="color: blue;">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" style="color: blue;">LinkedIn</a>. </li>
+<li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" style="color: blue;">marketing@prometheus.ph</a>.</li>
+
+</ul>
+ 
+</div>
+
+</div>
