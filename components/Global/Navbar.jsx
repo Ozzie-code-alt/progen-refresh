@@ -26,7 +26,7 @@ const Navbar = () => {
         {NavData.map((nav, index) => (
           <Link href={nav.Link}   key={index}>
             <div
-              className={`font-bold font-ox hover:scale-110 cursor-pointer ease-in-out duration-300 transition text-white ${OxaniumFont.className} `}
+              className={`font-bold uppercase font-ox hover:scale-110 cursor-pointer ease-in-out duration-300 transition text-white ${OxaniumFont.className} `}
             >
               {nav.nav}
             </div>
