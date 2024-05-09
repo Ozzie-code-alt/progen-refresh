@@ -25,8 +25,8 @@ const TheBeautyoftheStruggle = () => {
         <NavbarGroup />
 
         <main className="w-full relative h-full  ">
-          {/*Left Side*/}
           <div className="flex flex-col lg:flex-row pt-[10%] ">
+          {/*Left Side*/}
             <div className=" w-full lg:w-[45%] flex  h-full justify-center  ">
               <div className="  lg:fixed lg:px-30 flex flex-col gap-5 ">
                 <div

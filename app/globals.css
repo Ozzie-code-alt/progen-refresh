@@ -12,3 +12,10 @@
     top: 0;
     left: 0;
   }
+
+  .postsContainer {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 14px;
+  }
+

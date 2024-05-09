@@ -8,6 +8,7 @@ const BlogsSection = () => {
 
       {/*Gino's Story*/}
       <div className="flex  flex-col md:flex-row mt-12 justify-between w-full">
+        {/*left */}
         <div className="w-full md:w-[60%] flex">
           <img
             src={"/BlogsAssets/GinoBlogsAssets/GinoHeader.png"}
@@ -15,6 +16,7 @@ const BlogsSection = () => {
             className="flex rounded-lg"
           />
         </div>
+        {/*Right */}
         <div className="w-full md:w-[40%] flex flex-col md:ml-14 my-4 mr-4 space-y-4">
           <Link href={"/blog/CreativeDirection"}>
             <h1 className=" text-xl md:text-3xl text-white font-bold  cursor-pointer">
@@ -30,6 +32,9 @@ const BlogsSection = () => {
           </div>
         </div>
       </div>
+
+
+
       {/*Map this instead*/}
       <div className="flex flex-col md:flex-row mt-12 justify-between w-full">
         <div className="w-full md:w-[60%] flex">
