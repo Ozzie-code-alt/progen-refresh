@@ -110,8 +110,8 @@ const ThreeColumnFooter = () => {
         </div>
         <div className="my-8 border-b-2 border-white" />
         <div className="pb-0 text-sm font-normal flex flex-col sm:flex-row justify-between items-center">
-          <div>&copy; Copyright 2023, Prometheus.</div>
-          <div>#BeLimitless</div>
+          <div>&copy; Copyright 2024, Prometheus.</div>
+          <div>#IdeasEngineered</div>
         </div>
       </div>
     </div>
