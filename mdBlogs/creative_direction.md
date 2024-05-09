@@ -1,6 +1,6 @@
 ---
 title: "Finding Your Creative Direction at a Marketing Agency"
-image: "/BlogsAssets/GinoBlogsAssets/GinoHeader.png" 
+image: "/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp"
 author: "Prometheus"
 description: "Gino Fanega's journey as an Executive Creative Director at Western Visayas' 1st full-service marketing agency shows finding creativity in marketing."
 blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
