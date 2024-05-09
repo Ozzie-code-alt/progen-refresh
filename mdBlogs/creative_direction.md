@@ -8,63 +8,116 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
 
 <div style="display: flex;
     flex-direction: column;
-    gap: 2.5rem;">
+    gap: 4rem;">
 
-<img src="/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp" alt="Descriptive Text" style="border-radius: 15px;">
+  <img src="/BlogsAssets/GinoBlogsAssets/GinoHeader.png" alt="Descriptive Text" style="border-radius: 15px;">
 
-<p style="color: white; font-size: 28px; ">
-  In 2019, Prometheus' story began with its founder Lcid Fernandez being told by his mentors from various industries, including his father, that a social media marketing agency would never work in Western Visayas, much less Iloilo City. When he pitched his idea for seed capital, he was denied.
+  <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 font-ox">
+      We often hear that creativity doesn&apos;t pay the bills and that
+              pursuing creativity offers no real future. Despite these
+              persistent remarks, when creativity calls, no one can help but
+              answer. The challenge then becomes not just how to engage with our
+              creativity but how to thrive in doing so amidst skepticism.
+  </p>
+
+<p  className="text-[#FFFFFF] text-[20px] sm:text-[35px] pb-5 pt-10 font-bold font-ox" >
+    A Creative Spark
 </p>
 
-<p style="color: white; font-size: 28px; ">
-  Undaunted, Lcid launched Prometheus from his bedroom with mostly DIY equipment. Then, he was simply Lcid the start-up founder, trying to get his digital marketing company off the ground in the middle of a pandemic.
+<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 font-ox">
+     Gino Fanega&apos;s creative journey started at the University of
+              the Philippines Visayas, where national marketing competitions
+              ignited his passion for advertising. Despite initial detours into
+              non-marketing roles early in his career, Gino&apos;s desire to
+              shift towards the marketing agency path remained strong.
 </p>
 
-<img src="/BlogsAssets/BeautyOfStruggleBlogs/LCIDANDGINO2.webp" alt="Descriptive Text" style="border-radius: 15px;">
-
-<p style="color: white; font-size: 28px; ">
-  It was during this time as well that he rose to become the VP External of Daily Guardian, a regional daily newspaper. What was a traditional and conservative media outlet quickly became the most innovative media platform in the region. Combining both his roles as Prometheus CEO and Daily Guardian VP External, Lcid created several product lines and content series' that modernized Daily Guardian's reporting, and introduced a storytelling platform that felt closer to its audiences.
+<p className="text-[#FFFFFF] text-[17px] sm:text-[30px] pb-5  pt-10 font-bold font-ox">
+  The Turning Point
 </p>
 
-<p style="color: white; font-size: 28px; ">
-  In this period, Daily Guardian's digital organic reach grew from 700 to over 10 million people monthly, with his work being recognized in his nomination as Newsmaker of the Year in the Globe Media Excellence Awards. Daily Guardian went on to be perennially recognized by its national and international colleagues for its innovative and responsible journalism.
+<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10">
+           The year 2020 proved pivotal for Gino. In fact, he would soon find
+              himself engaged in production shoots with a marketing agency in
+              Iloilo. His commitment and creativity quickly made him stand out,
+              leading to involvement in more projects. “That was an opportunity
+              I could not miss, and finally, I left my corporate job,” Gino
+              said. This decision marked the beginning of his journey into the
+              creative agency world. Soon, he found himself leading as the
+              Executive Creative Director of Prometheus, the first full-service
+              marketing agency in Western Visayas.
 </p>
 
-<p style="color: white; font-size: 28px; ">
-  Almost five years later, Prometheus grew from its humble 3 digital marketers working out of a bedroom to a team of 50 idea engineers leading the industry in its locality. Prometheus has evolved from a digital marketing agency into becoming the only award-winning full-service marketing agency and public relations firm based in Western Visayas.
+<p className="text-[#FFFFFF] text-[20px]  sm:text-[35px] pb-5  pt-10  font-bold font-ox">
+    Building a Creative Agency in Western Visayas
 </p>
 
-<p style="color: white; font-size: 28px; ">
-  The results that Prometheus has delivered have been recognized not just by its clients, but by the industry itself. Lcid is the first Ilonggo to ever win the Marketing Leader of the Year Award at the Marketing Excellence Awards (MEA) Philippines. In 2023 alone, he also received the following recognitions:
+<p className="text-[#FFFFFF] sm:text-[28px]  pb-10 ">
+       Establishing a creative team outside of Metro Manila presented
+              unique challenges. Prometheus CEO, Lcid Fernandez,{" "}
+              <a className="text-blue-500" href="https://www.prometheus.ph/beautyofthestruggle">
+                {" "}
+                shared that he initially faced skepticism when pitching the idea
+                of a marketing agency in Iloilo.
+              </a>{" "}
+              For many local artists and writers in Iloilo, the concept of a
+              marketing and advertising agency was foreign. “The idea of a
+              creative career in marketing without relocating to Metro Manila
+              was unheard of here,” Gino pointed out. He shared that the biggest
+              challenge was to capture Iloilo&apos;s raw artistic talent into
+              the so-called “commercial framework” of advertising. “We literally
+              had to redefine what creativity means in the context of art and
+              marketing. It wasn&apos;t just about artistic expression, but
+              about crafting solutions that achieved our clients&apos; specific
+              business goals,” Gino said.
 </p>
 
-<ul style="color: white; font-size: 20px">
-<li> - Innovative Entrepreneur of the Year at the IlonggoEntrepreneur Awards 2023 </li>
-<li> - Dungganon nga Barotacnon Awardee for Entrepreneurship by the Municipality of Barotac Nuevo and JCI Barotac Nuevo Tamasak </li>
-<li> - Nominated in the ASEAN Business Awards</li> 
-<li> - Nominated in the INJAP Young Ilonggo Entrepreneur Awards </li>
-</ul>
-
-![Image](/BlogsAssets/BeautyOfStruggleBlogs/Lcidtrophy2.webp)
-
-<p style="color: white; font-size: 28px; ">
-  Lcid's story is one of perseverance and defying limitations. He has always said, “The struggle to get from where you are to where you want to be is what makes the journey beautiful.”
+<p className="text-[#FFFFFF] text-[20px]  pb-5  pt-10  sm:text-[35px] font-bold">
+ Charting New Paths in Marketing Agency
 </p>
 
-<p style="color: white; font-size: 28px; ">
-  He has led the marketing revolution in Iloilo, evidenced by data-backed conversion strategies and industrial impact. His journey, born from rejection — serves as an inspiration — proving that success often lies beyond the comfort zone, waiting to be seized by those who dare to go through the struggle.
+<p className="text-[#FFFFFF] sm:text-[28px] pb-10 ">
+              Prometheus was founded upon recognizing the untapped potential of
+              Western Visayas&apos; creative talent. This inspired Gino to
+              envision a space where young and seasoned individuals in Iloilo
+              could collaborate, innovate, and become a powerhouse of
+              creativity. “Creativity has no borders,” Gino said. “We can
+              compete on the national stage right here in Iloilo.” Gino said.
 </p>
 
-<img src="/BlogsAssets/BeautyOfStruggleBlogs/PrometheusMothership2.webp" alt="Descriptive Text" style="border-radius: 15px;">
+ <h2 className="text-[#FFFFFF] text-[20px]  sm:text-[35px] pb-5  pt-10   font-bold font-ox">
+              Pushing the Boundaries
+      </h2>
 
-<div style="color: white; font-size: 15px; display: flex; flex-direction: column;  gap: 2.5rem;  ">
+<div>
+  <p className="text-[#FFFFFF] sm:text-[28px] pb-10 font-ox">
+              For Gino, the future is more than maintaining the status quo. He
+              envisions Prometheus as a leader in marketing innovation,
+              constantly exploring new creative territories. “Prometheus will
+              always be a ship, striving to push past creative boundaries,” Gino
+              said. His vision for the agency is clear: to continue building an
+              exceptional team and bringing out the best ideas that not only
+              highlight their clients but also steer the industry toward new
+              standards of creative excellence. Gino&apos;s story exemplifies
+              the creative potential within each of us. Just like we curate our
+              personal style and prepare our meals, there&apos;s an artistic
+              dimension to crafting our lives. Gino reminds us that creativity
+              extends beyond painting and music. He found his own unique
+              expression in the world of marketing, helping to build Prometheus
+              — the creative and marketing leader in Western Visayas.
+        </p>
+
+<img
+              src="/BlogsAssets/GinoBlogsAssets/GinoPic.jpg"
+              className="w-[700px] rounded-2xl pb-10"
+              alt="Gino Fanega Image"
+            />
+
    <ul style="color: white; font-size: 20px">
-<li> -  Read Lcid's column on <a href="https://dailyguardian.com.ph/category/opinion/prometheus/" style="color: blue;">Daily Guardian</a> and connect with him on <a href="https://ph.linkedin.com/in/lcidfernandez" style="color: blue;">LinkedIn</a>. </li>
+<li> -  Connect with Gino on <a href="https://www.linkedin.com/in/ginofanega/" style="color: blue;">LinkedIn</a>. </li>
 <li> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" style="color: blue;">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" style="color: blue;">LinkedIn</a>. </li>
 <li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" style="color: blue;">marketing@prometheus.ph</a>.</li>
 
 </ul>
- 
-</div>
 
-</div>
+<div>
