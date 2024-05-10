@@ -4,6 +4,7 @@ const EMAILJS_TEMPLATE_ID='template_z215hiq'
 const EMAILJS_PUBLIC_KEY='PLUpOPXsxh7LK5A-e'
 
 const sendEmail = ({
+  from_email,
   from_name,
   to_name,
   user_email,
@@ -11,6 +12,7 @@ const sendEmail = ({
   number
 }) => {
   emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+    from_email,
     from_name,
     to_name,
     user_email,
