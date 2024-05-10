@@ -12,6 +12,8 @@ import NavbarGroup from "@/components/Global/NavbarGroup";
 import { Oxanium } from "next/font/google";
 
 const oxaniumFont = Oxanium({ weight: "500", subsets: ["latin"] });
+const grabMetaTitle = getPostMetadata("mdBlogs");
+
 
 function getPostContent(slug) {
   const folder = "mdBlogs/";
@@ -32,11 +34,12 @@ export const generateStaticParams = async () => {
 
 export async function generateMetadata({ params, searchParams }) {
   const slug = params?.slug;
-
+  
   const postContent = getPostContent(slug);
   console.log("this is inside slug", slug);
   console.log("this is postContent", postContent);
-  const title = `Kwatro Distrito Blog ⋅ ${slug.replaceAll("_", " ")}`;
+  const title = postContent.metadata.title; 
+
   const ogImage =
     postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
   const ogDescription =
