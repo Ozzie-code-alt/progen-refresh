@@ -12,7 +12,7 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
 
   <img src="/BlogsAssets/GinoBlogsAssets/GinoHeader.png" alt="Descriptive Text" style="border-radius: 15px;">
 
-  <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 font-ox">
+  <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 ">
       We often hear that creativity doesn&apos;t pay the bills and that
               pursuing creativity offers no real future. Despite these
               persistent remarks, when creativity calls, no one can help but
@@ -20,11 +20,11 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
               creativity but how to thrive in doing so amidst skepticism.
   </p>
 
-<p  className="text-[#FFFFFF] text-[20px] sm:text-[35px] pb-5 pt-10 font-bold font-ox" >
+<p  className="text-[#FFFFFF] text-[20px] sm:text-[35px] pb-5 pt-10 font-bold " >
     A Creative Spark
 </p>
 
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 font-ox">
+<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 ">
      Gino Fanega&apos;s creative journey started at the University of
               the Philippines Visayas, where national marketing competitions
               ignited his passion for advertising. Despite initial detours into
@@ -32,7 +32,7 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
               shift towards the marketing agency path remained strong.
 </p>
 
-<p className="text-[#FFFFFF] text-[17px] sm:text-[30px] pb-5  pt-10 font-bold font-ox">
+<p className="text-[#FFFFFF] text-[17px] sm:text-[30px] pb-5  pt-10 font-bold ">
   The Turning Point
 </p>
 
@@ -48,7 +48,7 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
               marketing agency in Western Visayas.
 </p>
 
-<p className="text-[#FFFFFF] text-[20px]  sm:text-[35px] pb-5  pt-10  font-bold font-ox">
+<p className="text-[#FFFFFF] text-[20px]  sm:text-[35px] pb-5  pt-10  font-bold ">
     Building a Creative Agency in Western Visayas
 </p>
 
@@ -85,12 +85,12 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
               compete on the national stage right here in Iloilo.” Gino said.
 </p>
 
- <h2 className="text-[#FFFFFF] text-[20px]  sm:text-[35px] pb-5  pt-10   font-bold font-ox">
+ <h2 className="text-[#FFFFFF] text-[20px]  sm:text-[35px] pb-5  pt-10   font-bold ">
               Pushing the Boundaries
       </h2>
 
 <div>
-  <p className="text-[#FFFFFF] sm:text-[28px] pb-10 font-ox">
+  <p className="text-[#FFFFFF] sm:text-[28px] pb-10 ">
               For Gino, the future is more than maintaining the status quo. He
               envisions Prometheus as a leader in marketing innovation,
               constantly exploring new creative territories. “Prometheus will
@@ -113,7 +113,7 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
               alt="Gino Fanega Image"
             />
 </div>
-  <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  font-ox">
+  <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  ">
 <li> -  Connect with Gino on <a href="https://www.linkedin.com/in/ginofanega/" style="color: blue;">LinkedIn</a>. </li>
 <li> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" style="color: blue;">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" style="color: blue;">LinkedIn</a>. </li>
 <li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" style="color: blue;">marketing@prometheus.ph</a>.</li>
