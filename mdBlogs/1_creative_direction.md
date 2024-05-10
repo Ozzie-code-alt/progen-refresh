@@ -114,9 +114,9 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
             />
 </div>
   <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  ">
-<li> -  Connect with Gino on <a href="https://www.linkedin.com/in/ginofanega/" style="color: blue;">LinkedIn</a>. </li>
-<li> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" style="color: blue;">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" style="color: blue;">LinkedIn</a>. </li>
-<li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" style="color: blue;">marketing@prometheus.ph</a>.</li>
+<li> -  Connect with Gino on <a href="https://www.linkedin.com/in/ginofanega/" className="text-blue-500">LinkedIn</a>. </li>
+<li> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" className="text-blue-500">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" className="text-blue-500">LinkedIn</a>. </li>
+<li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
 </ul>
 

@@ -61,9 +61,9 @@ blogTitle: "THE BEAUTY OF THE STRUGGLE"
 
 <div style="color: white; font-size: 15px; display: flex; flex-direction: column;  gap: 3.5rem; ">
 <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  ">
-<li className="text-[#FFFFFF]   sm:text-[15px]  "> -  Read Lcid's column on <a href="https://dailyguardian.com.ph/category/opinion/prometheus/" style="color: blue;">Daily Guardian</a> and connect with him on <a href="https://ph.linkedin.com/in/lcidfernandez" style="color: blue;">LinkedIn</a>. </li>
-<li className="text-[#FFFFFF]   sm:text-[15px]  "> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" style="color: blue;">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" style="color: blue;">LinkedIn</a>. </li>
-<li className="text-[#FFFFFF] sm:text-[15px]  "> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" style="color: blue;">marketing@prometheus.ph</a>.</li>
+<li className="text-[#FFFFFF]   sm:text-[15px]  "> -  Read Lcid's column on <a href="https://dailyguardian.com.ph/category/opinion/prometheus/" className="text-blue-500">Daily Guardian</a> and connect with him on <a href="https://ph.linkedin.com/in/lcidfernandez" className="text-blue-500">LinkedIn</a>. </li>
+<li className="text-[#FFFFFF]   sm:text-[15px]  "> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" className="text-blue-500">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" className="text-blue-500">LinkedIn</a>. </li>
+<li className="text-[#FFFFFF] sm:text-[15px]  "> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
 </ul>
  

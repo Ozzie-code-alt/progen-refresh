@@ -1,6 +1,6 @@
 "use client";
 import { NavData } from "@/app/contants";
-import React,{useState} from "react";
+import React,{useState, useEffect} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Oxanium } from "next/font/google";
@@ -14,14 +14,33 @@ const Navbar = () => {
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  }; 
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="fixed w-[90%] py-10 z-20 overflow-y-hidden font-bold font-ox ">
-      <div className="hidden lg:flex justify-between items-center w-[90%] gap-10 ">
+    <div className={`fixed w-full  py-10 z-20 overflow-y-hidden font-bold font-ox ${!isScrolled ? 'scrolled-nav' : 'bg-black/50'}  `}>
+      <div className={`hidden lg:flex  justify-between items-center w-[90%] gap-10`}>
         <Image
           src={"/LandingPageAssets/logoNavbar.png"}
           height={100}
           width={200}
           alt="Prometheus Logo"
+          className="pl-5"
         />
         {NavData.map((nav, index) => (
           <Link href={nav.Link}   key={index}>
