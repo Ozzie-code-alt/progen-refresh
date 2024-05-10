@@ -9,6 +9,10 @@ import { FaRegUserCircle } from "react-icons/fa";
 import Footer from "@/components/Global/Footer";
 import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
 import NavbarGroup from "@/components/Global/NavbarGroup";
+import { Oxanium } from "next/font/google";
+
+const oxaniumFont = Oxanium({ weight: "500", subsets: ["latin"] });
+
 function getPostContent(slug) {
   const folder = "mdBlogs/";
   const file = folder + `${slug}.md`;
@@ -19,7 +23,6 @@ function getPostContent(slug) {
     metadata: matterResult.data, // This contains the front matter
   };
 }
-
 
 // generator
 export const generateStaticParams = async () => {
@@ -79,12 +82,16 @@ const BlogPage = (props) => {
         {/*Left Side*/}
         <div className="w-full lg:w-[45%] flex  h-full justify-center ">
           <div className=" lg:fixed lg:px-30 flex flex-col gap-5">
-              <BlogButton />
+            <BlogButton />
             <div className="flex px-10 flex-col  justify-center text-left">
-              <h1 className="text-[#FFFFFF] font-bold text-[30px] text-wrap md:text-[50px] tex lg:text-[57px]  uppercase font-ox">
+              <h1
+                className={`text-[#FFFFFF] font-bold text-[30px] text-wrap md:text-[50px]  lg:text-[57px]  uppercase font-ox ${oxaniumFont.className}`}
+              >
                 {post.metadata.blogTitle}
               </h1>
-              <p className="text-[#FFFFFF] text-[20px] text-wrap    text-opacity-[63%]  font-ox">
+              <p
+                className={`text-[#FFFFFF] text-[20px] text-wrap   text-opacity-[63%]  ${oxaniumFont.className}`}
+              >
                 {" "}
                 {post.metadata.description}
               </p>
@@ -99,7 +106,9 @@ const BlogPage = (props) => {
           </div>
         </div>
         {/*Right Side */}
-        <div className=" w-full px-10 lg:w-[55%] h-full ">
+        <div
+          className={`w-full px-10 lg:w-[55%] h-full ${oxaniumFont.className}`}
+        >
           <Markdown>{post.content}</Markdown>
         </div>
         {/* <h1>{post.metadata.title}</h1>

@@ -106,14 +106,14 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
               expression in the world of marketing, helping to build Prometheus
               — the creative and marketing leader in Western Visayas.
         </p>
-
+<div className="w-full pb-10  flex justify-center items-center ">
 <img
               src="/BlogsAssets/GinoBlogsAssets/GinoPic.jpg"
               className="w-[700px] rounded-2xl pb-10"
               alt="Gino Fanega Image"
             />
-
-   <ul style="color: white; font-size: 20px">
+</div>
+  <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  font-ox">
 <li> -  Connect with Gino on <a href="https://www.linkedin.com/in/ginofanega/" style="color: blue;">LinkedIn</a>. </li>
 <li> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" style="color: blue;">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" style="color: blue;">LinkedIn</a>. </li>
 <li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" style="color: blue;">marketing@prometheus.ph</a>.</li>

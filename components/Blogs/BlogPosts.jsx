@@ -4,11 +4,11 @@ import { CgProfile } from "react-icons/cg";
 export default function BlogCard(props) {
   const { post } = props;
   return (
-      <div className="postCard text-white mx-10 flex flex-row gap-10 pb-10  ">
+      <div className="postCard text-white mx-10 flex flex-row gap-10 pb-10   ">
         <div className="flex flex-col md:flex-row mt-12 justify-between w-full">
           {/*Left Div*/}
-          <div className="w-full md:w-[60%] flex">
-            <img src={post.image} alt="images" />
+          <div className="w-full md:w-[60%]  flex">
+            <img src={post.image} alt="images" className="rounded-2xl" />
           </div>
           {/*Right Div*/}
           <div className="w-full md:w-[40%] flex flex-col md:ml-14 my-4 mr-4 space-y-4">
