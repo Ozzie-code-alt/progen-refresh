@@ -10,11 +10,11 @@ import Footer from "@/components/Global/Footer";
 import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
 import NavbarGroup from "@/components/Global/NavbarGroup";
 import { Oxanium } from "next/font/google";
-
+import { Metadata } from 'next'
 const oxaniumFont = Oxanium({ weight: "500", subsets: ["latin"] });
 const grabMetaTitle = getPostMetadata("mdBlogs");
 
-function getPostContent(slug) {
+function getPostContent(slug:any) {
   const folder = "mdBlogs/";
   const file = folder + `${slug}.md`;
   const content = fs.readFileSync(file, "utf8");
@@ -31,35 +31,47 @@ export const generateStaticParams = async () => {
   return posts.map((post) => ({ slug: post.slug }));
 };
 
-export async function generateMetadata({ params, searchParams }) {
-  const slug = params?.slug;
+// export async function generateMetadata({ params, searchParams }) {
+//   const slug = params?.slug;
 
-  const postContent = getPostContent(slug);
-  console.log("this is inside slug", slug);
-  console.log("this is postContent", postContent);
-  const title = postContent.metadata.title;
-  const ogImage =
-    postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
-  const ogDescription =
-    postContent.metadata.description ||
-    `Read the latest updates on ${slug.replaceAll("_", " ")}`;
-  const url = `https://yourdomain.com/blog/${slug}`;
-  const ogauthor = postContent.metadata.author;
-  console.log("this is autor", ogauthor);
-  console.log("this is url", url);
-  console.log("this is ogDescription", ogDescription);
-  console.log("this is ogImage", ogImage);
+//   const postContent = getPostContent(slug);
+//   console.log("this is inside slug", slug);
+//   console.log("this is postContent", postContent);
+//   const title = postContent.metadata.title;
+//   const ogImage =
+//     postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
+//   const ogDescription =
+//     postContent.metadata.description ||
+//     `Read the latest updates on ${slug.replaceAll("_", " ")}`;
+//   const url = `https://yourdomain.com/blog/${slug}`;
+//   const ogauthor = postContent.metadata.author;
+//   console.log("this is autor", ogauthor);
+//   console.log("this is url", url);
+//   console.log("this is ogDescription", ogDescription);
+//   console.log("this is ogImage", ogImage);
+//   return {
+//     author: ogauthor,
+//     title: title,
+//     description: ogDescription,
+//     image: ogImage,
+//     url: url,
+//     date: postContent.metadata.date,
+//   };
+// }
+
+
+export async function generateMetadata( props:any ) {
+  const slug = props.params.slug;
+  const post = getPostContent(slug);
   return {
-    author: ogauthor,
-    title: title,
-    description: ogDescription,
-    image: ogImage,
-    url: url,
-    date: postContent.metadata.date,
-  };
+    title: post.metadata.blogTitle,
+    description: post.metadata.description,
+    image: post.metadata.image,
+    author:"Prometheus",
+  }
 }
 
-const BlogPage = (props) => {
+const BlogPage = (props:any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
 
@@ -107,12 +119,7 @@ const BlogPage = (props) => {
       <footer className="hidden md:block">
         <ThreeColumnFooter />
       </footer>
-      <meta name="author" content="Prometheus" />
-      <meta
-        name="publish_date"
-        property="og:publish_date"
-        content="2024-05-13"
-      />
+
     </main>
   );
 };
