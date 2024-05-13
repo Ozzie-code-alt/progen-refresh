@@ -46,7 +46,7 @@ export async function generateMetadata({ params, searchParams }) {
     `Read the latest updates on ${slug.replaceAll(
       "_",
       " "
-    )} at Kwatro Distrito Blog.`;
+    )}`;
   const url = `https://yourdomain.com/blog/${slug}`;
   const ogauthor = postContent.metadata.author;
   console.log("this is autor", ogauthor);
@@ -69,13 +69,7 @@ const BlogPage = (props) => {
   return (
     <main className="bg-black w-full flex flex-col relative h-full ">
       <Head>
-        <meta name="author" content={post.metadata.author} />
-        <meta name="author" content="Prometheus" />
-        <meta
-          name="author"
-          property="og:author"
-          content={post.metadata.author}
-        />
+      <meta name="author" content={post.metadata.author} />
         <meta name="author" property="og:author" content="Prometheus" />
         <title>{post.metadata.title}</title>
         <meta name="description" content={post.metadata.description} />
@@ -121,11 +115,6 @@ const BlogPage = (props) => {
         >
           <Markdown>{post.content}</Markdown>
         </div>
-        {/* <h1>{post.metadata.title}</h1>
-            <p><strong>Author:</strong> {post.metadata.author}</p>
-            <img src={post.metadata.image} alt={`Image for ${post.metadata.title}`} />
-            <p>{post.metadata.description}</p>
-        <Markdown>{post.content}</Markdown> */}
       </article>
       <footer className="md:hidden">
         <Footer />

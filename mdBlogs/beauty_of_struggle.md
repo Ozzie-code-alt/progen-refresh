@@ -4,6 +4,7 @@ image: "/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp"
 author: "Prometheus"
 description: "How the Prometheus founder launched an award-winning marketing rocketship from a small bedroom"
 blogTitle: "THE BEAUTY OF THE STRUGGLE"
+date: '2020-01-01'
 ---
 
 <div style="display: flex;

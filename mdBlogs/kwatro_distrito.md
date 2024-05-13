@@ -4,6 +4,7 @@ image: "/BlogsAssets/KwatroDistritoBlogAssets/landscape_map.webp"
 author: "Prometheus"
 description: "Campaign sets the Fourth District of Iloilo on the Tourist Map"
 blogTitle: "BUGAL SANG KWARTO DISTRITO"
+date: '2020-01-01'
 ---
 
 <div style="display: flex;
