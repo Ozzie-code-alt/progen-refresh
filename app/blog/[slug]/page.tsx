@@ -11,6 +11,7 @@ import ThreeColumnFooter from "@/components/Global/LargeBreakpointFooter";
 import NavbarGroup from "@/components/Global/NavbarGroup";
 import { Oxanium } from "next/font/google";
 import { Metadata } from 'next'
+import { CustomMetadata } from "../blogTypes";
 const oxaniumFont = Oxanium({ weight: "500", subsets: ["latin"] });
 const grabMetaTitle = getPostMetadata("mdBlogs");
 
@@ -60,14 +61,14 @@ export const generateStaticParams = async () => {
 // }
 
 
-export async function generateMetadata( props:any ) {
+export async function generateMetadata(props:any): Promise<CustomMetadata> {
   const slug = props.params.slug;
   const post = getPostContent(slug);
   return {
     title: post.metadata.blogTitle,
     description: post.metadata.description,
     image: post.metadata.image,
-    author:"Prometheus",
+    authors:[{name: "Prometheus"}],
   }
 }
 

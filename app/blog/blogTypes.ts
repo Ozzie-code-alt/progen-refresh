@@ -4,5 +4,4 @@ export interface CustomMetadata {
     description: string;
     image: string;  
     authors: { name: string }[];
-
 }
