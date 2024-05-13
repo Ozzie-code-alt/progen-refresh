@@ -84,7 +84,7 @@ const BlogPage = (props:any) => {
         <meta property="og:title" content={post.metadata.blogTitle} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
-        <meta property="og:author" content={post.metadata.authors} />
+        <meta name="author" content="[Author name here]"> </meta>
         
       </head>
       <NavbarGroup />
