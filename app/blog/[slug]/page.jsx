@@ -14,7 +14,6 @@ import { Oxanium } from "next/font/google";
 const oxaniumFont = Oxanium({ weight: "500", subsets: ["latin"] });
 const grabMetaTitle = getPostMetadata("mdBlogs");
 
-
 function getPostContent(slug) {
   const folder = "mdBlogs/";
   const file = folder + `${slug}.md`;
@@ -34,11 +33,11 @@ export const generateStaticParams = async () => {
 
 export async function generateMetadata({ params, searchParams }) {
   const slug = params?.slug;
-  
+
   const postContent = getPostContent(slug);
   console.log("this is inside slug", slug);
   console.log("this is postContent", postContent);
-  const title = postContent.metadata.title; 
+  const title = postContent.metadata.title;
 
   const ogImage =
     postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
@@ -49,17 +48,17 @@ export async function generateMetadata({ params, searchParams }) {
       " "
     )} at Kwatro Distrito Blog.`;
   const url = `https://yourdomain.com/blog/${slug}`;
-  const author = postContent.metadata.author;
-  console.log("this is autor", author);
+  const ogauthor = postContent.metadata.author;
+  console.log("this is autor", ogauthor);
   console.log("this is url", url);
   console.log("this is ogDescription", ogDescription);
   console.log("this is ogImage", ogImage);
   return {
+    author: ogauthor,
     title: title,
     description: ogDescription,
     image: ogImage,
     url: url,
-    Author: author,
   };
 }
 
@@ -70,12 +69,19 @@ const BlogPage = (props) => {
   return (
     <main className="bg-black w-full flex flex-col relative h-full ">
       <Head>
+        <meta name="author" content={post.metadata.author} />
+        <meta name="author" content="Prometheus" />
+        <meta
+          name="author"
+          property="og:author"
+          content={post.metadata.author}
+        />
+        <meta name="author" property="og:author" content="Prometheus" />
         <title>{post.metadata.title}</title>
         <meta name="description" content={post.metadata.description} />
         <meta property="og:title" content={post.metadata.title} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
-        <meta name="author" content={post.metadata.Author}/>
         <meta
           property="og:url"
           content={`https://yourdomain.com/blog/${slug}`}
