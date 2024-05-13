@@ -1,7 +1,7 @@
 ---
 title: "Discovering Your Purpose at a Marketing Agency in Iloilo"
 image: "/BlogsAssets/BeaAssets/BeaHeader.webp"
-author: "Prometheus"
+authors: "Prometheus Progenitor"
 description: "Blessed Bea Plondaya took the leap to leave the government for what would become Western Visayas' 1st full-service marketing agency."
 blogTitle: "Discovering Your Purpose at a Marketing Agency in Iloilo"
 date: '2020-01-01'
@@ -99,5 +99,6 @@ date: '2020-01-01'
 <li> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
 </ul>
-
+<meta name="author" content="Prometheus" />
+<meta name="publish_date" property="og:publish_date" content="2024-05-13">
 <div>

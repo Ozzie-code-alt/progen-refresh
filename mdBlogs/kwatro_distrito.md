@@ -1,7 +1,7 @@
 ---
 title: "BUGAL SANG KWARTO DISTRITO: Campaign Sets The Fourth District Of Iloilo On The Tourist Map"
 image: "/BlogsAssets/KwatroDistritoBlogAssets/landscape_map.webp"
-author: "Prometheus"
+authors: "Prometheus"
 description: "Campaign sets the Fourth District of Iloilo on the Tourist Map"
 blogTitle: "BUGAL SANG KWARTO DISTRITO"
 date: '2020-01-01'
@@ -72,5 +72,6 @@ The campaign employed a multi-faceted approach to reach and engage with potentia
             authentic tourism development.
 </p>
 
-
+<meta name="author" content="Prometheus" />
+<meta name="publish_date" property="og:publish_date" content="2024-05-09">
 </div>

@@ -38,15 +38,11 @@ export async function generateMetadata({ params, searchParams }) {
   console.log("this is inside slug", slug);
   console.log("this is postContent", postContent);
   const title = postContent.metadata.title;
-
   const ogImage =
     postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
   const ogDescription =
     postContent.metadata.description ||
-    `Read the latest updates on ${slug.replaceAll(
-      "_",
-      " "
-    )}`;
+    `Read the latest updates on ${slug.replaceAll("_", " ")}`;
   const url = `https://yourdomain.com/blog/${slug}`;
   const ogauthor = postContent.metadata.author;
   console.log("this is autor", ogauthor);
@@ -59,6 +55,7 @@ export async function generateMetadata({ params, searchParams }) {
     description: ogDescription,
     image: ogImage,
     url: url,
+    date: postContent.metadata.date,
   };
 }
 
@@ -69,8 +66,9 @@ const BlogPage = (props) => {
   return (
     <main className="bg-black w-full flex flex-col relative h-full ">
       <Head>
-      <meta name="author" content={post.metadata.author} />
-        <meta name="author" property="og:author" content="Prometheus" />
+
+        {/* <meta name="author" content="Next.js Team" />
+        <link rel="author" href="https://nextjs.org" />
         <title>{post.metadata.title}</title>
         <meta name="description" content={post.metadata.description} />
         <meta property="og:title" content={post.metadata.title} />
@@ -79,7 +77,7 @@ const BlogPage = (props) => {
         <meta
           property="og:url"
           content={`https://yourdomain.com/blog/${slug}`}
-        />
+        /> */}
       </Head>
       <NavbarGroup />
       <article className="flex flex-col lg:flex-row pt-[10%] pb-10">
@@ -104,7 +102,7 @@ const BlogPage = (props) => {
             <div className="flex gap-3 pb-5 px-10">
               <FaRegUserCircle className="text-[#FFFFFF] text-[20px]" />
               <p className="text-[#FFFFFF] text-[15px] text-opacity-[63%] font-ox">
-              {post.metadata.author}
+                {post.metadata.author}
               </p>
             </div>
           </div>

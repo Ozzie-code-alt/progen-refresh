@@ -4,7 +4,7 @@ import "../globals.css"
 
 export const metadata: Metadata = {
   title: "Prometheus PH - Blogs Page",
-  description: "OurWorks Page",
+  description: "Blogs Page",
 };
 
 export default function RootLayout({

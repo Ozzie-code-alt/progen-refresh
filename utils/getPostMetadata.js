@@ -18,13 +18,14 @@ export default function getPostMetadata(basePath) {
             prep_time: matterResult.data.prep_time,
             cook_time: matterResult.data.cook_time,
             bio: matterResult.data.description,
-            author: matterResult.data.author,
+            authors: matterResult.data.author,
             image: matterResult.data.image,
             slug: filename.replace('.md', ''),
-            creationDate: stats.birthtime  // or stats.ctime based on your system and need
+            creationDate: stats.birthtime // or stats.ctime based on your system and need
         }
     })
 
-    posts.sort((a, b) => b.creationDate - a.creationDate);
+    posts.sort((a, b) => new Date(b.creationDate) - new Date(a.creationDate));
+    console.log(posts)
     return posts
 }

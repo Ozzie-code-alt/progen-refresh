@@ -1,7 +1,7 @@
 ---
 title: "THE BEAUTY OF THE STRUGGLE: How the Prometheus founder launched an award-winning marketing rocketship from a small bedroom"
 image: "/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp"
-author: "Prometheus"
+authors: "Prometheus"
 description: "How the Prometheus founder launched an award-winning marketing rocketship from a small bedroom"
 blogTitle: "THE BEAUTY OF THE STRUGGLE"
 date: '2020-01-01'
@@ -68,5 +68,6 @@ date: '2020-01-01'
 </ul>
  
 </div>
-
+<meta name="author" content="Prometheus" />
+<meta name="publish_date" property="og:publish_date" content="2024-05-09">
 </div>
