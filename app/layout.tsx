@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import { Oxanium } from "next/font/google";
 
@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-4KWX4DWN7D" />
       <body className={`${oxaniumFont.className} overflow-x-hidden  w-auto h-auto`}>
         {" "}
         {children}
