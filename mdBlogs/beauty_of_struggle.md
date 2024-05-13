@@ -11,7 +11,6 @@ blogTitle: "THE BEAUTY OF THE STRUGGLE"
     gap: 4rem;
     "
     >
-
 <img src="/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
 <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 ">

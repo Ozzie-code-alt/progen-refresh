@@ -1,5 +1,6 @@
 import fs from 'fs'
 import matter from 'gray-matter'
+import path from 'path'
 
 export default function getPostMetadata(basePath) {
     const folder = basePath + '/'
@@ -8,8 +9,10 @@ export default function getPostMetadata(basePath) {
 
     // get the file data
     const posts = markdownPosts.map((filename) => {
+        const filePath = path.join(folder, filename);
         const fileContents = fs.readFileSync(`${basePath}/${filename}`, 'utf8')
         const matterResult = matter(fileContents)
+        const stats = fs.statSync(filePath);  // Get file statistics
         return {
             title: matterResult.data.title,
             prep_time: matterResult.data.prep_time,
@@ -17,8 +20,11 @@ export default function getPostMetadata(basePath) {
             bio: matterResult.data.description,
             author: matterResult.data.author,
             image: matterResult.data.image,
-            slug: filename.replace('.md', '')
+            slug: filename.replace('.md', ''),
+            creationDate: stats.birthtime  // or stats.ctime based on your system and need
         }
     })
+
+    posts.sort((a, b) => b.creationDate - a.creationDate);
     return posts
 }

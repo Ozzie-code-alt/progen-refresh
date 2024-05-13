@@ -10,6 +10,9 @@ import BlogCard from "@/components/Blogs/BlogPosts";
 import getPostMetadata from "@/utils/getPostMetadata";
 const MainSectionBlogs = () => {
   const PostMetadata = getPostMetadata("mdBlogs");
+
+
+
   return (
     <div className="bg-black">
       <PageTransition>

@@ -54,12 +54,12 @@ blogTitle: "FINDING YOUR CREATIVE DIRECTION AT A MARKETING AGENCY"
 
 <p className="text-[#FFFFFF] sm:text-[28px]  pb-10 ">
        Establishing a creative team outside of Metro Manila presented
-              unique challenges. Prometheus CEO, Lcid Fernandez,{" "}
+              unique challenges. Prometheus CEO, Lcid Fernandez,
               <a className="text-blue-500" href="https://www.prometheus.ph/beautyofthestruggle">
-                {" "}
+              
                 shared that he initially faced skepticism when pitching the idea
                 of a marketing agency in Iloilo.
-              </a>{" "}
+              </a>
               For many local artists and writers in Iloilo, the concept of a
               marketing and advertising agency was foreign. “The idea of a
               creative career in marketing without relocating to Metro Manila
