@@ -18,7 +18,7 @@ export default function getPostMetadata(basePath) {
             prep_time: matterResult.data.prep_time,
             cook_time: matterResult.data.cook_time,
             bio: matterResult.data.description,
-            authors: matterResult.data.author,
+            authors: matterResult.data.authors,
             image: matterResult.data.image,
             slug: filename.replace('.md', ''),
             creationDate: stats.birthtime // or stats.ctime based on your system and need

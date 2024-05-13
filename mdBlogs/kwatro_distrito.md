@@ -72,6 +72,6 @@ The campaign employed a multi-faceted approach to reach and engage with potentia
             authentic tourism development.
 </p>
 
-<meta name="author" content="Prometheus" />
-<meta name="publish_date" property="og:publish_date" content="2024-05-09">
+<!-- <meta name="author" content="Prometheus" />
+<meta name="publish_date" property="og:publish_date" content="2024-05-09"> -->
 </div>

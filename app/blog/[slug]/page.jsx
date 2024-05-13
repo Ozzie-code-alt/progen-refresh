@@ -65,20 +65,6 @@ const BlogPage = (props) => {
 
   return (
     <main className="bg-black w-full flex flex-col relative h-full ">
-      <Head>
-
-        {/* <meta name="author" content="Next.js Team" />
-        <link rel="author" href="https://nextjs.org" />
-        <title>{post.metadata.title}</title>
-        <meta name="description" content={post.metadata.description} />
-        <meta property="og:title" content={post.metadata.title} />
-        <meta property="og:description" content={post.metadata.description} />
-        <meta property="og:image" content={post.metadata.image} />
-        <meta
-          property="og:url"
-          content={`https://yourdomain.com/blog/${slug}`}
-        /> */}
-      </Head>
       <NavbarGroup />
       <article className="flex flex-col lg:flex-row pt-[10%] pb-10">
         {/*Left Side*/}
@@ -121,6 +107,12 @@ const BlogPage = (props) => {
       <footer className="hidden md:block">
         <ThreeColumnFooter />
       </footer>
+      <meta name="author" content="Prometheus" />
+      <meta
+        name="publish_date"
+        property="og:publish_date"
+        content="2024-05-13"
+      />
     </main>
   );
 };
