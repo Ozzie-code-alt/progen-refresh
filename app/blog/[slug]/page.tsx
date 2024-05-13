@@ -61,16 +61,16 @@ export const generateStaticParams = async () => {
 // }
 
 
-export async function generateMetadata(props:any): Promise<CustomMetadata> {
-  const slug = props.params.slug;
-  const post = getPostContent(slug);
-  return {
-    title: post.metadata.blogTitle,
-    description: post.metadata.description,
-    image: post.metadata.image,
-    authors:[{name: "Prometheus"}],
-  }
-}
+// export async function generateMetadata(props:any): Promise<CustomMetadata> {
+//   const slug = props.params.slug;
+//   const post = getPostContent(slug);
+//   return {
+//     title: post.metadata.blogTitle,
+//     description: post.metadata.description,
+//     image: post.metadata.image,
+//     authors:[{name: "Prometheus"}],
+//   }
+// }
 
 const BlogPage = (props:any) => {
   const slug = props.params.slug;
@@ -78,6 +78,14 @@ const BlogPage = (props:any) => {
 
   return (
     <main className="bg-black w-full flex flex-col relative h-full ">
+      <head>
+        <title>{post.metadata.blogTitle}</title>
+        <meta name="description" content={post.metadata.description} />
+        <meta property="og:title" content={post.metadata.blogTitle} />
+        <meta property="og:description" content={post.metadata.description} />
+        <meta property="og:image" content={post.metadata.image} />
+        <meta name="author" content="Prometheus" />
+      </head>
       <NavbarGroup />
       <article className="flex flex-col lg:flex-row pt-[10%] pb-10">
         {/*Left Side*/}
