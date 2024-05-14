@@ -84,7 +84,7 @@ const BlogPage = (props) => {
         <meta property="og:title" content={post.metadata.blogGirl} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
-        <meta name="author" content="[Author name here]" />
+        <meta name="author" content={post.metadata.authors} />
   
 
       <div className="bg-black w-full flex flex-col relative h-full ">
