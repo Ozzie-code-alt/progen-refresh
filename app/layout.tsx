@@ -16,13 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <div lang="en">
       <GoogleAnalytics gaId="G-4KWX4DWN7D" />
-      <body className={`${oxaniumFont.className} overflow-x-hidden  w-auto h-auto`}>
+      <div className={`${oxaniumFont.className} overflow-x-hidden  w-auto h-auto`}>
         {" "}
         {children}
         
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }
