@@ -62,6 +62,7 @@ export async function generateMetadata({ params, searchParams }) {
   };
 }
 
+
 // export async function generateMetadata(props:any): Promise<CustomMetadata> {
 //   const slug = props.params.slug;
 //   const post = getPostContent(slug);

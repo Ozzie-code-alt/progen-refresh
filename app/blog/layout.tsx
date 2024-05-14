@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 
-import "../globals.css"
+import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "Prometheus PH - Blogs Page",
-  description: "Blogs Page",
-  authors: [{ name: "Prometheus"} ],
+  title: "Blog Page",
+  description: "Prometheus PH - Blog Page",
+
 };
+
 
 export default function RootLayout({
   children,
@@ -15,9 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <div lang="en">
-      <div className="bg-black " >
-        {children}
-      </div>
+      <head>
+      <meta name="author" content="Prometheus" />
+      </head>
+      <div className="bg-black ">{children}</div>
     </div>
   );
 }
