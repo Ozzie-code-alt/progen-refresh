@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <div lang="en">
+  
       <div className="bg-black ">{children}</div>
     </div>
   );
