@@ -78,14 +78,14 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <head>
+  
         <title>{post.metadata.blogTitle}</title>
         <meta name="description" content={post.metadata.description} />
         <meta property="og:title" content={post.metadata.blogGirl} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
         <meta name="author" content="[Author name here]" />
-      </head>
+  
 
       <div className="bg-black w-full flex flex-col relative h-full ">
         <NavbarGroup />
@@ -123,12 +123,15 @@ const BlogPage = (props) => {
             <Markdown>{post.content}</Markdown>
           </div>
         </article>
-        <div className="md:hidden">
-          <Footer />
-        </div>
 
-        <footer className="hidden md:block">
-          <ThreeColumnFooter />
+        <footer>
+          <div className="md:hidden">
+            <Footer />
+          </div>
+
+          <div className="hidden md:block">
+            <ThreeColumnFooter />
+          </div>
         </footer>
       </div>
     </>

@@ -34,8 +34,15 @@ const MainSectionWork = () => {
           })}
         </div>
       </div>
-      <ThreeColumnFooter/>
-      <Footer />
+      <footer>
+          <div className="md:hidden">
+            <Footer />
+          </div>
+
+          <div className="hidden md:block">
+            <ThreeColumnFooter />
+          </div>
+        </footer>
     </main>
   );
 };
