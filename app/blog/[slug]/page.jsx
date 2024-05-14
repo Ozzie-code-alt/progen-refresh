@@ -1,4 +1,3 @@
-
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from "@/utils/getPostMetadata";
 import React from "react";
@@ -62,7 +61,6 @@ export const generateStaticParams = async () => {
 //   };
 // }
 
-
 // export async function generateMetadata(props:any): Promise<CustomMetadata> {
 //   const slug = props.params.slug;
 //   const post = getPostContent(slug);
@@ -78,18 +76,16 @@ const BlogPage = (props) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
 
-
-
-
   return (
     <>
+      <head>
         <title>{post.metadata.blogTitle}</title>
         <meta name="description" content={post.metadata.description} />
         <meta property="og:title" content={post.metadata.blogGirl} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
-        <meta name="author" content={post.metadata.authors} />
-     
+        <meta name="author" content="[Author name here]" />
+      </head>
 
       <div className="bg-black w-full flex flex-col relative h-full ">
         <NavbarGroup />
