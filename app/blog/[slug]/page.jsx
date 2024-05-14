@@ -78,14 +78,14 @@ const BlogPage = (props) => {
 
   return (
     <>
-  
+      <head>
         <title>{post.metadata.blogTitle}</title>
         <meta name="description" content={post.metadata.description} />
         <meta property="og:title" content={post.metadata.blogGirl} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
         <meta name="author" content="Prometheus" />
-  
+      </head>
 
       <div className="bg-black w-full flex flex-col relative h-full ">
         <NavbarGroup />
