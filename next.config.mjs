@@ -5,22 +5,22 @@ const nextConfig = {
         return [
             {
                 source: '/embracingchange',
-                destination: '/blog/1_creative_direction',
+                destination: '/blog/creative_direction',
                 permanent: true
             },
             {
                 source: '/creativedirection',
-                destination: '/blog/1_creative_direction',
+                destination: '/blog/creative_direction',
                 permanent: true
             },
             {
                 source: '/kwartodistrito',
-                destination: '/blog/2_kwatro_distrito',
+                destination: '/blog/kwatro_distrito',
                 permanent: true
             },
             {
                 source: '/beautyofthestruggle',
-                destination: '/blog/3_beauty_of_struggle',
+                destination: '/blog/beauty_of_struggle',
                 permanent: true
             }
         ]
