@@ -3,7 +3,6 @@ import getPostMetadata from "@/utils/getPostMetadata";
 import React from "react";
 import fs from "fs";
 import matter from "gray-matter";
-import Head from "next/head";
 import BlogButton from "@/components/Blogs/BlogButton";
 import { FaRegUserCircle } from "react-icons/fa";
 import Footer from "@/components/Global/Footer";
