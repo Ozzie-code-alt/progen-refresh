@@ -63,9 +63,9 @@ const GinoBlog = () => {
               <BlogDescription />
             </div>
           </div>
-          <footer className="md:hidden">
+          <div className="md:hidden">
             <Footer />
-          </footer>
+          </div>
 
           <footer className="hidden md:block">
             <ThreeColumnFooter />

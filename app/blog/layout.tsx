@@ -16,9 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <div lang="en">
-      <head>
-      <meta name="author" content="Prometheus" />
-      </head>
       <div className="bg-black ">{children}</div>
     </div>
   );

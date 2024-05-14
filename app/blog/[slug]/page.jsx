@@ -34,33 +34,33 @@ export const generateStaticParams = async () => {
   return posts.map((post) => ({ slug: post.slug }));
 };
 
-export async function generateMetadata({ params, searchParams }) {
-  const slug = params?.slug;
+// export async function generateMetadata({ params, searchParams }) {
+//   const slug = params?.slug;
 
-  const postContent = getPostContent(slug);
-  console.log("this is inside slug", slug);
-  console.log("this is postContent", postContent);
-  const title = postContent.metadata.title;
-  const ogImage =
-    postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
-  const ogDescription =
-    postContent.metadata.description ||
-    `Read the latest updates on ${slug.replaceAll("_", " ")}`;
-  const url = `https://yourdomain.com/blog/${slug}`;
-  const ogauthor = postContent.metadata.author;
-  console.log("this is autor", ogauthor);
-  console.log("this is url", url);
-  console.log("this is ogDescription", ogDescription);
-  console.log("this is ogImage", ogImage);
-  return {
-    author: ogauthor,
-    title: title,
-    description: ogDescription,
-    image: ogImage,
-    url: url,
-    date: postContent.metadata.date,
-  };
-}
+//   const postContent = getPostContent(slug);
+//   console.log("this is inside slug", slug);
+//   console.log("this is postContent", postContent);
+//   const title = postContent.metadata.title;
+//   const ogImage =
+//     postContent.metadata.image || "https://example.com/default-image.jpg"; // Default image if none specified
+//   const ogDescription =
+//     postContent.metadata.description ||
+//     `Read the latest updates on ${slug.replaceAll("_", " ")}`;
+//   const url = `https://yourdomain.com/blog/${slug}`;
+//   const ogauthor = postContent.metadata.author;
+//   console.log("this is autor", ogauthor);
+//   console.log("this is url", url);
+//   console.log("this is ogDescription", ogDescription);
+//   console.log("this is ogImage", ogImage);
+//   return {
+//     author: ogauthor,
+//     title: title,
+//     description: ogDescription,
+//     image: ogImage,
+//     url: url,
+//     date: postContent.metadata.date,
+//   };
+// }
 
 
 // export async function generateMetadata(props:any): Promise<CustomMetadata> {
@@ -83,15 +83,13 @@ const BlogPage = (props) => {
 
   return (
     <>
-     {/* <Head>
         <title>{post.metadata.blogTitle}</title>
         <meta name="description" content={post.metadata.description} />
         <meta property="og:title" content={post.metadata.blogGirl} />
         <meta property="og:description" content={post.metadata.description} />
         <meta property="og:image" content={post.metadata.image} />
         <meta name="author" content={post.metadata.authors} />
-      </Head> */}
-
+     
 
       <div className="bg-black w-full flex flex-col relative h-full ">
         <NavbarGroup />
@@ -129,9 +127,9 @@ const BlogPage = (props) => {
             <Markdown>{post.content}</Markdown>
           </div>
         </article>
-        <footer className="md:hidden">
+        <div className="md:hidden">
           <Footer />
-        </footer>
+        </div>
 
         <footer className="hidden md:block">
           <ThreeColumnFooter />
