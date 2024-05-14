@@ -7,7 +7,7 @@ const oxaniumFont = Oxanium({ weight: '500',subsets: ["latin"], });
 
 export const metadata: Metadata = {
   title: "Prometheus PH",
-  description: "Prometheus Description Here",
+  description: "Prometheus is the premier full-service public relations firm and marketing agency in Western Visayas, specializing in creating and amplifying powerful stories that build and grow brands. Our team is dedicated to helping clients optimize their communications, create high-impact customer experiences, and reach wider audiences.",
 };
 
 export default function RootLayout({
@@ -16,13 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div lang="en">
+    <html lang="en">
       <GoogleAnalytics gaId="G-4KWX4DWN7D" />
-      <div className={`${oxaniumFont.className} overflow-x-hidden  w-auto h-auto`}>
+      <body className={`${oxaniumFont.className} overflow-x-hidden  w-auto h-auto`}>
         {" "}
         {children}
         
-      </div>
-    </div>
+      </body>
+    </html>
   );
 }

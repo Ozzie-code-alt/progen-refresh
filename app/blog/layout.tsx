@@ -5,6 +5,7 @@ import "../globals.css"
 export const metadata: Metadata = {
   title: "Prometheus PH - Blogs Page",
   description: "Blogs Page",
+  authors: [{ name: "Prometheus"} ],
 };
 
 export default function RootLayout({
