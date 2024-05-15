@@ -23,6 +23,12 @@ const nextConfig = {
                 destination: '/blog/beauty_of_struggle',
                 permanent: true
             }
+            ,
+            {
+                source: '/embracingchange',
+                destination: 'https://www.prometheus.ph/blog/discovering_purpose',
+                permanent: true
+            }
         ]
     }
 };

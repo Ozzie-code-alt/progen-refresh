@@ -56,7 +56,7 @@ function Starship({ coloredIcon, icon, index, activeShip }) {
   return (
     <motion.div
       ref={ref}
-      className="relative hover:cursor-pointer"
+      className="relative "
       initial={{ opacity: 0, y: 300, scale: 0.001 }}
       style={{ marginLeft: '0.75rem' }}
       animate={{
