@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 function TransitionComponent() {
   
     const scale = 2
-    const duration = 0.3
+    const duration = 1
   
     const [animationComplete, setAnimationComplete] = useState(false);
     const [animationLineComplete, setAnimationLineComplete] = useState(false);

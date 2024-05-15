@@ -13,12 +13,16 @@ const StarshipandBrandsNoSSR = dynamic(
   { ssr: false }
 );
 
+const HeroSectionDynamicNoSSR = dynamic( () =>
+  import("@/components/LandingPage/HeroSection"), { ssr: false }
+) 
+
 const LandingPage = () => {
   return (
     <div className="h-auto w-full flex flex-col justify-center  bg-black overflow-x-hidden ">
       <PageTransition>
         <NavbarGroup />
-        <HeroSection />
+        <HeroSectionDynamicNoSSR />
         <div className="w-full">
           <div className="flex justify-center items-center">
             <PrometheusPlayer />
