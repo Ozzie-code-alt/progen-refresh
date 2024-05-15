@@ -13,7 +13,7 @@ const StarshipCaptains = () => {
     <div className="absolute inset-0 z-0 h-auto">
       <div className="h-screen w-full relative">
         <img
-          src="/LandingPageAssets/milkyway.jpg"
+          src="/LandingPageAssets/milkyway.webp"
           className="h-full w-full object-cover"
           alt=""
         />
@@ -26,7 +26,7 @@ const StarshipCaptains = () => {
     </div>
 
     <div className="absolute inset-0 z-0 h-auto">
-      <img src="/LandingPageAssets/galaxybg.jpg" className="h-full w-full object-cover" />
+      <img src="/LandingPageAssets/galaxybg.webp" className="h-full w-full object-cover" />
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-black via-transparent to-black opacity-90" />
     </div>
 

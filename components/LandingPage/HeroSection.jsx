@@ -81,10 +81,10 @@ const HeroSection = () => {
             <LazyLoadImage
               loading="lazy"
               alt={"background image"}
-              src="/LandingPageAssets/astro-bg.jpg"
+              src="/LandingPageAssets/astro-bg.webp"
               effect="blurry"
               className="w-full h-full md:w-screen md:h-screen object-cover"
-              placeholderSrc="/LandingPageAssets/astro-bg.jpg"
+              placeholderSrc="/LandingPageAssets/astro-bg.webp"
             />
           </div>
 

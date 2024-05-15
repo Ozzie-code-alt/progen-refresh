@@ -26,6 +26,5 @@ export default function getPostMetadata(basePath) {
     })
 
     posts.sort((a, b) => new Date(b.creationDate) - new Date(a.creationDate));
-    console.log(posts)
     return posts
 }
