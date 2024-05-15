@@ -33,7 +33,7 @@ const StarshipsAndBrands = () => {
     <div className="flex flex-col items-center justify-center relative">
       <div className="absolute inset-0 z-0 h-auto">
         <img
-          src="/LandingPageAssets/bg.jpg"
+          src="/LandingPageAssets/galaxybg.webp"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 z-10 bg-gradient-to-t from-black via-transparent to-black opacity-90" />
