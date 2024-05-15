@@ -26,7 +26,7 @@ const nextConfig = {
             ,
             {
                 source: '/embracingchange',
-                destination: 'https://www.prometheus.ph/blog/discovering_purpose',
+                destination: '/blog/discovering_purpose',
                 permanent: true
             }
         ]
