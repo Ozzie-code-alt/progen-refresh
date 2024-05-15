@@ -91,12 +91,12 @@ const BlogPage = (props) => {
         <NavbarGroup />
         <article className="flex flex-col lg:flex-row pt-[10%] pb-10">
           {/*Left Side*/}
-          <div className="w-full lg:w-[45%] flex  h-full justify-center ">
-            <div className=" lg:fixed lg:px-30 flex flex-col gap-5">
+          <div className="w-full  lg:w-[45%] flex  h-full justify-center ">
+            <div className=" lg:fixed  lg:w-[45%] lg:px-30 flex flex-col gap-5">
               <BlogButton />
-              <div className="flex px-10 flex-col  justify-center text-left">
+              <div className="flex px-10 flex-col w-full   justify-center text-left">
                 <h1
-                  className={`text-[#FFFFFF] font-bold text-[30px] text-wrap md:text-[40px] 2xl:text-[50px]   uppercase  ${oxaniumFont.className}`}
+                  className={`text-[#FFFFFF] relative font-bold text-[30px] text-wrap md:text-[40px] 2xl:text-[50px] uppercase  ${oxaniumFont.className}`}
                 >
                   {post.metadata.blogTitle}
                 </h1>
