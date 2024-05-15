@@ -8,7 +8,7 @@ import { Oxanium } from "next/font/google";
 import { motion } from "framer-motion";
 import localFont from "next/font/local";
 
-// Font Variables
+// Font Variables Hello Hello Another One
 const OxaniumFont = Oxanium({ weights: 100, subsets: ["latin"] });
 const MoonlanderFont = localFont({src:'../../Fonts/Moonlander.ttf'});
 
