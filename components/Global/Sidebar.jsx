@@ -95,7 +95,7 @@ const Sidebar = () => {
           </Link>
 
           <Link
-            href="/blog"
+            href="/blogs"
             className={`text-sm font-bold text-white  ${OxaniumFont.className}  px-4 py-2  hover:underline`}
           >
             BLOGS

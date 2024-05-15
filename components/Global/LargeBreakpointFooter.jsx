@@ -70,7 +70,7 @@ const ThreeColumnFooter = () => {
                 <FooterLink href="/about">About Us</FooterLink>
               </li>
               <li className="mt-3">
-                <FooterLink href="/blog">Blog</FooterLink>
+                <FooterLink href="/blogs">Blog</FooterLink>
               </li>
               <li className="mt-3">
                 <FooterLink href="/recon">Recon</FooterLink>
