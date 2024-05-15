@@ -4,11 +4,6 @@ const nextConfig = {
     redirects: async () => {
         return [
             {
-                source: '/embracingchange',
-                destination: '/blog/creative_direction',
-                permanent: true
-            },
-            {
                 source: '/creativedirection',
                 destination: '/blog/creative_direction',
                 permanent: true
