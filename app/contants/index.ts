@@ -14,7 +14,7 @@ export const NavData = [
     },{
 
         nav: "Blogs",
-        Link: "/blog",
+        Link: "/blogs",
     },{
 
         nav: "Recon",
