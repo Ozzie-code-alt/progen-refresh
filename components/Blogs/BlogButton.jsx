@@ -6,7 +6,7 @@ const BlogButton = () => {
     const navigate = useRouter();
 
     const handleNavigation = () => {
-      navigate.push("/blog");
+      navigate.push("/blogs");
     };
   
   return (
