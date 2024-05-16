@@ -15,7 +15,7 @@ const KwartoDistritoBlog = () => {
   const navigate = useRouter();
 
   const handleNavigation = () => {
-    navigate.push("/blog");
+    navigate.push("/blogs");
   };
 
 

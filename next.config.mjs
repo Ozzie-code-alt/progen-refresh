@@ -5,23 +5,23 @@ const nextConfig = {
         return [
             {
                 source: '/creativedirection',
-                destination: '/blog/creativedirection',
+                destination: '/blogs/creativedirection',
                 permanent: true
             },
             {
                 source: '/kwartodistrito',
-                destination: '/blog/kwatrodistrito',
+                destination: '/blogs/kwatrodistrito',
                 permanent: true
             },
             {
                 source: '/beautyofthestruggle',
-                destination: '/blog/beautyofstruggle',
+                destination: '/blogs/beautyofstruggle',
                 permanent: true
             }
             ,
             {
                 source: '/embracingchange',
-                destination: '/blog/discoveringpurpose',
+                destination: '/blogs/discoveringpurpose',
                 permanent: true
             }
         ]
