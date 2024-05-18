@@ -1,5 +1,5 @@
 ---
-title: "BUGAL SANG KWARTO DISTRITO: Campaign Sets The Fourth District Of Iloilo On The Tourist Map"
+title: "BUGAL SANG KWARTO DISTRITO"
 image: "https://progen-refresh.vercel.app/BlogsAssets/KwatroDistritoBlogAssets/landscape_map.webp"
 authors: "Prometheus"
 description: "Campaign sets the Fourth District of Iloilo on the Tourist Map"
