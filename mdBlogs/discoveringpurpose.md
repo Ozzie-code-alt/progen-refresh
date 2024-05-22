@@ -1,6 +1,6 @@
 ---
 title: "Discovering Your Purpose at a Marketing Agency in Iloilo"
-image: "https://progen-refresh.vercel.app/BlogsAssets/BeaAssets/BeaHeader.webp"
+image: "https://www.prometheus.ph/BlogsAssets/BeaAssets/BeaHeader.webp"
 authors: "Prometheus"
 description: "Blessed Bea Plondaya took the leap to leave the government for what would become Western Visayas' 1st full-service marketing agency."
 blogTitle: "Discovering Your Purpose at a Marketing Agency in Iloilo"

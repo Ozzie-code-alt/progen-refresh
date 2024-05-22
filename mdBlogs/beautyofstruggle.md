@@ -1,6 +1,6 @@
 ---
 title: "THE BEAUTY OF THE STRUGGLE"
-image: "https://progen-refresh.vercel.app/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp"
+image: "https://www.prometheus.ph/BlogsAssets/BeautyOfStruggleBlogs/InterstellarGroupPhoto.webp"
 authors: "Prometheus"
 description: "How the Prometheus founder launched an award-winning marketing rocketship from a small bedroom"
 blogTitle: "THE BEAUTY OF THE STRUGGLE"
