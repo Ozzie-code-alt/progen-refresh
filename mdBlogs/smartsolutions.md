@@ -9,7 +9,7 @@ date: '2020-01-01'
 
 <div style="display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     "
     >
 <img src="/BlogsAssets/KevAssets/KevHeader.webp" alt="Descriptive Text" style="border-radius: 15px;">
@@ -17,7 +17,7 @@ date: '2020-01-01'
 <h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-2  ">
 Empowering Local Communities with Smart Solutions 
 </h1>
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10">
+<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10">
 Kevin Ryan Atutubo was working at a corporate job in Metro Manila when he decided to transition into full-service marketing. This yearning was not just a whim but a desire to harness the power of storytelling through cutting-edge software solutions.
 <br/>
 <br/>
@@ -26,31 +26,31 @@ In 2017, Kevin made a big change and moved back to his hometown, Iloilo City, to
  </p>
 
 
-<h2 className="text-[#FFFFFF] text-[16px] font-bold  sm:text-[30px] pt-10 pb-2  ">
+<h2 className="text-[#FFFFFF] text-[18px] font-bold  sm:text-[30px] pt-10 pb-1  ">
 Pivot to Full-Service Marketing
 </h2>
 
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10 ">
+<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10 ">
 Kevin quickly started his own company that focuses on digital marketing. He shared his knowledge by teaching software and becoming a thesis instructor at Central Philippine University's Software Engineering program.
 </p>
 
-<h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-2  "> Shaping the Locality</h2>
+<h2 className="text-[#FFFFFF] text-[18px] font-bold sm:text-[30px] pt-10 pb-2  "> Shaping the Locality</h2>
 
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5   ">
+<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5   ">
 In 2018, Kevin joined the Global Shapers Iloilo. This group is made up of young people who want to make the world a better place, and they enabled Kevin to lead their technology efforts. That same year, he met Lcid Fernandez, who launched  <a href="https://www.prometheus.ph/" className="text-blue-500">Prometheus</a>, the leading full-service marketing agency and public relations firm in Western Visayas.
 <br/> 
 <br/>
 A conversation about shared visions and goals forged a strong friendship and a future collaboration that would change Kevin’s career trajectory. When his business partners moved to Vietnam, Kevin made the big decision to stay in the Philippines.
 </p>
 
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10  ">
+<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5 sm:pb-10  ">
   In this period, Daily Guardian's digital organic reach grew from 700 to over 10 million people monthly, with his work being recognized in his nomination as Newsmaker of the Year in the Globe Media Excellence Awards. Daily Guardian went on to be perennially recognized by its national and international colleagues for its innovative and responsible journalism.
 </p>
 
 
-<h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-2 ">Engineering a Marketing Legacy</h2>
+<h2 className="text-[#FFFFFF] text-[18px] sm:text-[35px] font-bold pt-10 pb-1 ">Engineering a Marketing Legacy</h2>
 
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10  ">
+<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10  ">
 In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a company part of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of running a full-service marketing in Iloilo.
 <br/>
 <br/>
@@ -58,9 +58,9 @@ Kevin decided to join WARP. At first, it was just him and A Frederick Molejona S
 </p>
 
 <!-- <h3 className="text-[#FFFFFF] text-[14px] font-bold sm:text-[25px] pb-5 sm:pb-10 ">Tech Innovation in Iloilo</h3> -->
-<h3 className="text-[#FFFFFF] text-[11px] font-bold sm:text-[28px] pt-10 pb-2  ">Tech Innovation in Iloilo</h3>
+<h3 className="text-[#FFFFFF] text-[17px] font-bold sm:text-[28px] pt-10 pb-2  ">Tech Innovation in Iloilo</h3>
 
-<p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10">
+<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10">
 Today, in 2024, WARP has grown to a team of 20 people and is about to launch its largest project yet. Under Kevin’s leadership as Chief Technical Officer, WARP is set to become a beacon of technological innovation in Iloilo with its streamlined solutions for government services.
 <br/>
 <br/>
