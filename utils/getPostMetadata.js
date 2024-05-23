@@ -3,7 +3,7 @@ import matter from 'gray-matter'
 import path from 'path'
 
 export default function getPostMetadata(basePath) {
-    const folder = path.join(process.cwd(), basePath);
+    const folder = basePath + '/'
     const files = fs.readdirSync(folder)
     const markdownPosts = files.filter(file => file.endsWith('.md'))
 
@@ -21,12 +21,9 @@ export default function getPostMetadata(basePath) {
             authors: matterResult.data.authors,
             image: matterResult.data.image,
             slug: filename.replace('.md', ''),
-            creationDate: stats.birthtime || stats.ctime // Fallback to ctime if birthtime is unavailable
+            creationDate: stats.birthtime // or stats.ctime based on your system and need
         }
     })
-
-
-
 
     posts.sort((a, b) => new Date(b.creationDate) - new Date(a.creationDate));
     return posts
