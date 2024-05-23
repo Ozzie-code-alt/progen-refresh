@@ -14,7 +14,7 @@ date: '2020-01-01'
     >
 <img src="/BlogsAssets/KevAssets/KevHeader.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
-<h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-5  ">
+<h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-2  ">
 Empowering Local Communities with Smart Solutions 
 </h1>
 <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10">
@@ -26,7 +26,7 @@ In 2017, Kevin made a big change and moved back to his hometown, Iloilo City, to
  </p>
 
 
-<h2 className="text-[#FFFFFF] text-[16px] font-bold  sm:text-[30px] pt-10 pb-5  ">
+<h2 className="text-[#FFFFFF] text-[16px] font-bold  sm:text-[30px] pt-10 pb-2  ">
 Pivot to Full-Service Marketing
 </h2>
 
@@ -34,7 +34,7 @@ Pivot to Full-Service Marketing
 Kevin quickly started his own company that focuses on digital marketing. He shared his knowledge by teaching software and becoming a thesis instructor at Central Philippine University's Software Engineering program.
 </p>
 
-<h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-5  "> Shaping the Locality</h2>
+<h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-2  "> Shaping the Locality</h2>
 
 <p className="text-[#FFFFFF] sm:text-[28px] pb-5   ">
 In 2018, Kevin joined the Global Shapers Iloilo. This group is made up of young people who want to make the world a better place, and they enabled Kevin to lead their technology efforts. That same year, he met Lcid Fernandez, who launched  <a href="https://www.prometheus.ph/" className="text-blue-500">Prometheus</a>, the leading full-service marketing agency and public relations firm in Western Visayas.
@@ -48,7 +48,7 @@ A conversation about shared visions and goals forged a strong friendship and a f
 </p>
 
 
-<h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-5 sm:pb-10 ">Engineering a Marketing Legacy</h2>
+<h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-2 ">Engineering a Marketing Legacy</h2>
 
 <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10  ">
 In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a company part of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of running a full-service marketing in Iloilo.
@@ -58,7 +58,7 @@ Kevin decided to join WARP. At first, it was just him and A Frederick Molejona S
 </p>
 
 <!-- <h3 className="text-[#FFFFFF] text-[14px] font-bold sm:text-[25px] pb-5 sm:pb-10 ">Tech Innovation in Iloilo</h3> -->
-<h3 className="text-[#FFFFFF] text-[11px] font-bold sm:text-[28px] pt-10 pb-5 sm:pb-10 ">Tech Innovation in Iloilo</h3>
+<h3 className="text-[#FFFFFF] text-[11px] font-bold sm:text-[28px] pt-10 pb-2  ">Tech Innovation in Iloilo</h3>
 
 <p className="text-[#FFFFFF] sm:text-[28px] pb-5  sm:pb-10">
 Today, in 2024, WARP has grown to a team of 20 people and is about to launch its largest project yet. Under Kevin’s leadership as Chief Technical Officer, WARP is set to become a beacon of technological innovation in Iloilo with its streamlined solutions for government services.
