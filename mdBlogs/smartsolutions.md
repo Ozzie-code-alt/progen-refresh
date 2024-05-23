@@ -37,7 +37,7 @@ Kevin quickly started his own company that focuses on digital marketing. He shar
 <h2 className="text-[#FFFFFF] text-[16px] font-bold sm:text-[30px] pt-10 pb-5  "> Shaping the Locality</h2>
 
 <p className="text-[#FFFFFF] sm:text-[28px] pb-5   ">
-In 2018, Kevin joined the Global Shapers Iloilo. This group is made up of young people who want to make the world a better place, and they enabled Kevin to lead their technology efforts. That same year, he met Lcid Fernandez, who launched Prometheus, the leading full-service marketing agency and public relations firm in Western Visayas.
+In 2018, Kevin joined the Global Shapers Iloilo. This group is made up of young people who want to make the world a better place, and they enabled Kevin to lead their technology efforts. That same year, he met Lcid Fernandez, who launched  <a href="https://www.prometheus.ph/" className="text-blue-500">Prometheus</a>, the leading full-service marketing agency and public relations firm in Western Visayas.
 <br/> 
 <br/>
 A conversation about shared visions and goals forged a strong friendship and a future collaboration that would change Kevin’s career trajectory. When his business partners moved to Vietnam, Kevin made the big decision to stay in the Philippines.
