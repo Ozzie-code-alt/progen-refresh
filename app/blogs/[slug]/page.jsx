@@ -111,7 +111,7 @@ const BlogPage = (props) => {
               <div className="flex gap-3 pb-5 px-10">
                 <FaRegUserCircle className="text-[#FFFFFF] text-[20px]" />
                 <p className="text-[#FFFFFF] text-[15px] text-opacity-[63%] font-ox">
-                  {post.metadata.author}
+                  {post.metadata.authors}
                 </p>
               </div>
             </div>
