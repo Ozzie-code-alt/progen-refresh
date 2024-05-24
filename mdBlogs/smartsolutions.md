@@ -4,6 +4,7 @@ image: "https://www.prometheus.ph/BlogsAssets/KevAssets/KevHeader.webp"
 authors: "Prometheus"
 description: "Kevin Ryan Atutubo left his corporate job in Metro Manila to reinvent his career at Western Visayas’ first full-service marketing agency in Iloilo"
 blogTitle: "Empowering Local Communities with a Full-Service Marketing Agency"
+number: "5"
 date: '2020-01-01'
 ---
 

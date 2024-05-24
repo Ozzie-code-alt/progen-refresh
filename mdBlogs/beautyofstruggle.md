@@ -4,6 +4,7 @@ image: "https://www.prometheus.ph/BlogsAssets/BeautyOfStruggleBlogs/Interstellar
 authors: "Prometheus"
 description: "How the Prometheus founder launched an award-winning marketing rocketship from a small bedroom"
 blogTitle: "THE BEAUTY OF THE STRUGGLE"
+number: "1"
 date: '2020-01-01'
 ---
 

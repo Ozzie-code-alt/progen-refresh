@@ -20,6 +20,7 @@ export default function getPostMetadata(basePath) {
                 prep_time: matterResult.data.prep_time,
                 cook_time: matterResult.data.cook_time,
                 bio: matterResult.data.description,
+                number: matterResult.data.number,
                 authors: matterResult.data.authors,
                 image: matterResult.data.image,
                 slug: filename.replace('.md', ''),
@@ -28,7 +29,7 @@ export default function getPostMetadata(basePath) {
         });
 
         // Sort posts by creationDate in descending order
-        posts.sort((a, b) => new Date(b.creationDate) - new Date(a.creationDate));
+        posts.sort((a, b) => new Date(b.number) - new Date(a.number));
 
         return posts;
 

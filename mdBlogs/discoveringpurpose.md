@@ -4,6 +4,7 @@ image: "https://www.prometheus.ph/BlogsAssets/BeaAssets/BeaHeader.webp"
 authors: "Prometheus"
 description: "Blessed Bea Plondaya took the leap to leave the government for what would become Western Visayas' 1st full-service marketing agency."
 blogTitle: "Discovering Your Purpose at a Marketing Agency in Iloilo"
+number: "4"
 date: '2020-01-01'
 ---
 
