@@ -68,7 +68,7 @@ WARP Technologies and Innovations Inc. is dedicated to transforming the digital 
 
 <div style="color: white; font-size: 15px; display: flex; flex-direction: column;  gap: 3.5rem; ">
 <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  ">
-<li className="text-[#FFFFFF]   sm:text-[15px]  "> - Connect with <a href="https://www.linkedin.com/in/a-frederick-sansait-632718266/" className="text-blue-500">A. Fredrick</a> and <a href="https://www.linkedin.com/in/kebatu/" className="text-blue-500">Kevin</a> on LinkedIn. </li>
+<li className="text-[#FFFFFF]   sm:text-[15px]  "> - Connect with <a href="https://www.linkedin.com/in/a-frederick-sansait-632718266/" className="text-blue-500">A. Frederick</a> and <a href="https://www.linkedin.com/in/kebatu/" className="text-blue-500">Kevin</a> on LinkedIn. </li>
 <li className="text-[#FFFFFF]   sm:text-[15px]  "> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" className="text-blue-500">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" className="text-blue-500">LinkedIn</a>. </li>
 <li className="text-[#FFFFFF] sm:text-[15px]  "> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
