@@ -26,7 +26,7 @@ const nextConfig = {
             }
             ,
             {
-                source: '/digitalmarketing',
+                source: '/blogs/digitalmarketing',
                 destination: '/blogs/warptechnologies',
                 permanent: true
             }
