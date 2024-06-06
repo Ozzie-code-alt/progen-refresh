@@ -28,7 +28,7 @@ The Vision Behind WARP
 </h2>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10 ">
-A. Frederick Sansait, the Chief Operating Officer of WARP, brought a wealth of experience to the table. With a background in IT, he has spent one year in software development and three years in web development. His career is marked by diverse roles in community development and corporate environments. Before founding WARP, A. worked for a French company based in the US, contributing to one of the world's top auto sites through digital marketing and attracting millions of views.
+A. Frederick Sansait, the Chief Operating Officer of WARP, brought a wealth of experience to the table. With a background in IT, his career is marked by diverse roles in community development and corporate environments in both software engineering and web development. Before co-founding WARP, A. worked for a French company based in the US, contributing to one of the world's top auto sites which attracted millions of views.
 </p>
 
 <div className="w-full flex justify-center items-center">
@@ -37,7 +37,7 @@ A. Frederick Sansait, the Chief Operating Officer of WARP, brought a wealth of e
 <h2 className="text-[#FFFFFF] text-[18px] font-bold sm:text-[30px] pt-10 pb-2  "> Joining Prometheus</h2>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5   ">
-A. Frederick joined <a href="https://www.prometheus.ph/about" className="text-blue-500" > Prometheus</a>, the first award-winning full-service marketing agency in Western Visayas. His time at Prometheus honed his skills and fueled his desire to create something even more impactful. This ambition led him to take on the role of COO at WARP Technologies and Innovations Inc. in 2022.
+A. Frederick joined <a href="https://www.prometheus.ph/about" className="text-blue-500" > Prometheus</a>, the first award-winning full-service marketing agency in Western Visayas. His time at Prometheus honed his skills and fueled his desire to create something even more impactful. This ambition led him to take on the role of COO at WARP Technologies and Innovations Inc. 
 </p>
 
 
