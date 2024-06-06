@@ -96,7 +96,7 @@ const BlogPage = (props) => {
               <BlogButton />
               <div className="flex px-10 flex-col w-full   justify-center text-left">
                 <h1
-                  className={`text-[#FFFFFF] relative font-bold text-[30px] text-wrap md:text-[40px] 2xl:text-[50px] uppercase  ${oxaniumFont.className}`}
+                  className={`text-[#FFFFFF] relative font-bold text-[30px] text-wrap md:text-[40px] 2xl:text-[40px] uppercase  ${oxaniumFont.className}`}
                 >
                   {post.metadata.blogTitle}
                 </h1>
