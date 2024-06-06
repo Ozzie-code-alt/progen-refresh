@@ -37,7 +37,7 @@ A. Frederick Sansait, the Chief Operating Officer of WARP, brought a wealth of e
 <h2 className="text-[#FFFFFF] text-[18px] font-bold sm:text-[30px] pt-10 pb-2  "> Joining Prometheus</h2>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5   ">
-A. Frederick joined <a href="https://www.prometheus.ph/about" className="text-blue-500" > Promethes</a>, the first award-winning full-service marketing agency in Western Visayas. His time at Prometheus honed his skills and fueled his desire to create something even more impactful. This ambition led him to take on the role of COO at WARP Technologies and Innovations Inc. in 2022.
+A. Frederick joined <a href="https://www.prometheus.ph/about" className="text-blue-500" > Prometheus</a>, the first award-winning full-service marketing agency in Western Visayas. His time at Prometheus honed his skills and fueled his desire to create something even more impactful. This ambition led him to take on the role of COO at WARP Technologies and Innovations Inc. in 2022.
 </p>
 
 
