@@ -24,6 +24,12 @@ const nextConfig = {
                 destination: '/blogs/discoveringpurpose',
                 permanent: true
             }
+            ,
+            {
+                source: '/digitalmarketing',
+                destination: '/blogs/warptechnologies',
+                permanent: true
+            }
         ]
     }
 };
