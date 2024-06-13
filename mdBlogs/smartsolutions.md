@@ -1,9 +1,9 @@
 ---
-title: "Empowering Local Communities with a Full-Service Marketing Agency"
+title: "Empowering Local Communities with Smart Software  Solutions"
 image: "https://www.prometheus.ph/BlogsAssets/KevAssets/KevHeader.webp"
 authors: "Prometheus"
 description: "Kevin Ryan Atutubo left his corporate job in Metro Manila to reinvent his career at Western Visayas’ first full-service marketing agency in Iloilo"
-blogTitle: "Empowering Local Communities with a Full-Service Marketing Agency"
+blogTitle: "Empowering Local Communities with Smart Software  Solutions"
 number: "5"
 date: '2020-01-01'
 ---
@@ -52,7 +52,7 @@ A conversation about shared visions and goals forged a strong friendship and a f
 <h2 className="text-[#FFFFFF] text-[18px] sm:text-[35px] font-bold pt-10 pb-1 ">Engineering a Marketing Legacy</h2>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10  ">
-In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a company part of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of running a full-service marketing in Iloilo.
+In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a subsidiary of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of running a full-service marketing in Iloilo.
 <br/>
 <br/>
 Kevin decided to join WARP. At first, it was just him and A Frederick Molejona Sansait working there, but he was given the opportunity to grow the team and manage more projects. By the end of the year, the team had grown from two people to five.
@@ -62,7 +62,7 @@ Kevin decided to join WARP. At first, it was just him and A Frederick Molejona S
 <h3 className="text-[#FFFFFF] text-[17px] font-bold sm:text-[28px] pt-10 pb-2  ">Tech Innovation in Iloilo</h3>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10">
-Today, in 2024, WARP has grown to a team of 20 people and is about to launch its largest project yet. Under Kevin’s leadership as Chief Technical Officer, WARP is set to become a beacon of technological innovation in Iloilo with its streamlined solutions for government services.
+Today, in 2024, WARP has grown to a team of 20 people and is about to launch its largest project yet. Under Kevin’s leadership as Chief Technical Officer, WARP is set to become a beacon of technological innovation in Iloilo with its streamlined solutions for software services.
 <br/>
 <br/>
 Kevin’s journey from a corporate job in Manila to Iloilo’s leading agency in full-service marketing is a testament to the power of returning home and reinventing one’s career path. It highlights the potential for local talent to drive global-standard technological advancements, proving that significant industry shifts can indeed start in one’s own home.
