@@ -1,9 +1,9 @@
 ---
-title: "Empowering Local Communities with Smart Software  Solutions"
+title: "Empowering Local Communities with a Full-Service Marketing Agency"
 image: "https://www.prometheus.ph/BlogsAssets/KevAssets/KevHeader.webp"
 authors: "Prometheus"
 description: "Kevin Ryan Atutubo left his corporate job in Metro Manila to reinvent his career at Western Visayas’ first full-service marketing agency in Iloilo"
-blogTitle: "Empowering Local Communities with Smart Software  Solutions"
+blogTitle: "Empowering Local Communities with a Full-Service Marketing Agency"
 number: "5"
 date: '2020-01-01'
 ---
@@ -16,7 +16,7 @@ date: '2020-01-01'
 <img src="/BlogsAssets/KevAssets/KevHeader.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
 <h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-2  ">
-Empowering Local Communities with Smart Solutions 
+Empowering Local Communities with Smart Software Solutions
 </h1>
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10">
 Kevin Ryan Atutubo was working at a corporate job in Metro Manila when he decided to transition into full-service marketing. This yearning was not just a whim but a desire to harness the power of storytelling through cutting-edge software solutions.
