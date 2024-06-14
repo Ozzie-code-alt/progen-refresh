@@ -3,9 +3,9 @@ title: "Empowering Local Communities with a Full-Service Marketing Agency"
 image: "https://www.prometheus.ph/BlogsAssets/KevAssets/KevHeader.webp"
 authors: "Prometheus"
 description: "Kevin Ryan Atutubo left his corporate job in Metro Manila to reinvent his career at Western Visayas’ first full-service marketing agency in Iloilo"
-blogTitle: "Empowering Local Communities with a Full-Service Marketing Agency"
+blogTitle: "Empowering Local Communities with Smart Solutions"
 number: "5"
-date: '2020-01-01'
+publicationDate: '2020-01-01'
 ---
 
 <div style="display: flex;
@@ -16,14 +16,13 @@ date: '2020-01-01'
 <img src="/BlogsAssets/KevAssets/KevHeader.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
 <h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-2  ">
-Empowering Local Communities with Smart Software Solutions
+Empowering Local Communities with Smart Solutions
 </h1>
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10">
 Kevin Ryan Atutubo was working at a corporate job in Metro Manila when he decided to transition into full-service marketing. This yearning was not just a whim but a desire to harness the power of storytelling through cutting-edge software solutions.
 <br/>
 <br/>
 In 2017, Kevin made a big change and moved back to his hometown, Iloilo City, to start working in marketing the way he imagined—by conveying great stories through websites and helping businesses grow online.
-
  </p>
 
 
@@ -44,15 +43,10 @@ In 2018, Kevin joined the Global Shapers Iloilo. This group is made up of young 
 A conversation about shared visions and goals forged a strong friendship and a future collaboration that would change Kevin’s career trajectory. When his business partners moved to Vietnam, Kevin made the big decision to stay in the Philippines.
 </p>
 
-<p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5 sm:pb-10  ">
-  In this period, Daily Guardian's digital organic reach grew from 700 to over 10 million people monthly, with his work being recognized in his nomination as Newsmaker of the Year in the Globe Media Excellence Awards. Daily Guardian went on to be perennially recognized by its national and international colleagues for its innovative and responsible journalism.
-</p>
-
-
 <h2 className="text-[#FFFFFF] text-[18px] sm:text-[35px] font-bold pt-10 pb-1 ">Engineering a Marketing Legacy</h2>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10  ">
-In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a subsidiary of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of running a full-service marketing in Iloilo.
+In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a subsidiary of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of building impactful software in Iloilo.
 <br/>
 <br/>
 Kevin decided to join WARP. At first, it was just him and A Frederick Molejona Sansait working there, but he was given the opportunity to grow the team and manage more projects. By the end of the year, the team had grown from two people to five.
