@@ -1,5 +1,5 @@
 ---
-title: "Empowering Local Communities with a Full-Service Marketing Agency"
+title: "Empowering Local Communities with Smart Solutions"
 image: "https://www.prometheus.ph/BlogsAssets/KevAssets/KevHeader.webp"
 authors: "Prometheus"
 description: "Kevin Ryan Atutubo left his corporate job in Metro Manila to reinvent his career at Western Visayas’ first full-service marketing agency in Iloilo"
@@ -46,7 +46,7 @@ A conversation about shared visions and goals forged a strong friendship and a f
 <h2 className="text-[#FFFFFF] text-[18px] sm:text-[35px] font-bold pt-10 pb-1 ">Engineering a Marketing Legacy</h2>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10  ">
-In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a subsidiary of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills and his dream of building impactful software in Iloilo.
+In 2022, Kevin met up again with Lcid, which turned out to be a really important moment. Lcid offered Kevin with a partnership stake at WARP, a subsidiary of Prometheus that focuses on web development and software solutions. This was a perfect match for Kevin's skills.
 <br/>
 <br/>
 Kevin decided to join WARP. At first, it was just him and A Frederick Molejona Sansait working there, but he was given the opportunity to grow the team and manage more projects. By the end of the year, the team had grown from two people to five.
@@ -62,7 +62,7 @@ Today, in 2024, WARP has grown to a team of 20 people and is about to launch its
 Kevin’s journey from a corporate job in Manila to Iloilo’s leading agency in full-service marketing is a testament to the power of returning home and reinventing one’s career path. It highlights the potential for local talent to drive global-standard technological advancements, proving that significant industry shifts can indeed start in one’s own home.
 <br/>
 <br/>
-Now, WARP has grown to a team of fifteen people and is about to start its biggest project ever. Kevin, as the Chief Technical Officer, has shaped WARP to become a leader in technology in Iloilo.
+Now, WARP has grown to a team of 20 people and is about to start its biggest project ever. Kevin, as the Chief Technical Officer, has shaped WARP to become a leader in technology in Iloilo.
 <br/>
 <br/>
 Kevin's story shows how moving back home and starting over in his career turned out to be a great decision. He moved from a corporate job in Manila to lead a top marketing agency in Iloilo. This shows that you can achieve great things right where you are, using local skills to meet global standards.
@@ -75,7 +75,7 @@ Kevin's story shows how moving back home and starting over in his career turned 
 
 <div style="color: white; font-size: 15px; display: flex; flex-direction: column;  gap: 3.5rem; ">
 <ul className="text-[#FFFFFF]  sm:text-[15px] flex flex-col gap-5  ">
-<li className="text-[#FFFFFF]   sm:text-[15px]  "> - Connect Kevin on <a href="https://www.linkedin.com/in/kebatu/" className="text-blue-500">LinkedIn</a>. </li>
+<li className="text-[#FFFFFF]   sm:text-[15px]  "> - Connect with Kevin on <a href="https://www.linkedin.com/in/kebatu/" className="text-blue-500">LinkedIn</a>. </li>
 <li className="text-[#FFFFFF]   sm:text-[15px]  "> - To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" className="text-blue-500">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" className="text-blue-500">LinkedIn</a>. </li>
 <li className="text-[#FFFFFF] sm:text-[15px]  "> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
