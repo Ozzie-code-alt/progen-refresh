@@ -72,9 +72,9 @@ const ThreeColumnFooter = () => {
               <li className="mt-3">
                 <FooterLink href="/blogs">Blog</FooterLink>
               </li>
-              <li className="mt-3">
+              {/* <li className="mt-3">
                 <FooterLink href="/recon">Recon</FooterLink>
-              </li>
+              </li> */}
               <li className="mt-3">
                 <FooterLink href="/contact">Contact Us</FooterLink>
               </li>
