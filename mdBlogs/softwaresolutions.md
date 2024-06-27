@@ -1,11 +1,11 @@
 ---
-title: "Prometheus subsidiary WARP Technologies and Innovations Inc. is building Global-Standard Software Solutions in Iloilo "
+title: "WARP Technologies and Innovations Inc. is building Global-Standard Software Solutions in Iloilo "
 image: "https://www.prometheus.ph/BlogsAssets/softwaresolutions/WARPBanner.webp"
-author: "Prometheus"
-description: "WARP Technologies and Innovations Inc. is leading the charge in bringing innovative software solutions to the forefront, both locally and globally."
-blogTitle: "Prometheus subsidiary WARP Technologies and Innovations Inc. is building Global-Standard Software Solutions in Iloilo "
-number: "5"
-publicationDate: '2024-06-26'
+authors: "Prometheus"
+description: "WARP Technologies and Innovations Inc., a subsidiary of Prometheus is leading the charge in bringing innovative software solutions to the forefront, both locally and globally."
+blogTitle: "WARP Technologies and Innovations Inc. is building Global-Standard Software Solutions in Iloilo "
+number: "6"
+publicationDate: '2024-06-27'
 ---
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">
