@@ -9,7 +9,7 @@ publicationDate: '2024-06-27'
 ---
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">
-  <img src="/BlogsAssets/softwaresolutions/WARPBanner.webp" alt="Descriptive Text" style="border-radius: 15px;">
+  <img src="/BlogsAssets/softwaresolutions/WARPBanner.webp" alt="WARP is a subsidiary of Prometheus, the first and only full-service marketing agency in Western Visayas." style="border-radius: 15px;">
 
   <h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-2">
     Bringing Global-Standard Software Solutions to Western Visayas
@@ -59,7 +59,7 @@ publicationDate: '2024-06-27'
     <br/><br/>
     This initiative not only elevates the technological landscape of the region but also provides valuable opportunities for local talent to shine on an international stage.
     <br/><br/>
-    What started as a small team of <a href="https://www.prometheus.ph/blogs/smartsolutions" className="text-blue-500">Kevin Ryan Atutubo</a> , and A. Frederick Sansait</a> have now grown into a dynamic group of 20 homegrown professionals. WARP's team now includes software engineers, web developers, quality assurance specialists, and more.
+    What started as a small team of <a href="https://www.prometheus.ph/blogs/smartsolutions" className="text-blue-500">Kevin Ryan Atutubo</a> , and A. Frederick Sansait have now grown into a dynamic group of 20 homegrown professionals. WARP's team now includes software engineers, web developers, quality assurance specialists, and more.
   </p>
 
   <h3 className="text-[#FFFFFF] text-[17px] font-bold sm:text-[28px] pt-10 pb-2">
@@ -72,7 +72,7 @@ publicationDate: '2024-06-27'
     With a clear vision, dedicated mission, and an impressive portfolio of services, WARP is leading the charge in bringing innovative software solutions to the forefront, both locally and globally.
   </p>
 
-  <img src="/BlogsAssets/softwaresolutions/WARPGroup3.webp" alt="Descriptive Text" style="border-radius: 15px;">
+  <img src="/BlogsAssets/softwaresolutions/WARPGroup3.webp" alt="With 20 engineers, WARP Technologies and Innovations Inc. is dedicated to transforming the digital landscape in Iloilo and Western Visayas with world-class superior software products and web solutions." style="border-radius: 15px;">
 
   <div style="color: white; font-size: 15px; display: flex; flex-direction: column; gap: 3.5rem;">
     <ul className="text-[#FFFFFF] sm:text-[15px] flex flex-col gap-5">
