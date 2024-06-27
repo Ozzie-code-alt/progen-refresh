@@ -59,7 +59,7 @@ publicationDate: '2024-06-27'
     <br/><br/>
     This initiative not only elevates the technological landscape of the region but also provides valuable opportunities for local talent to shine on an international stage.
     <br/><br/>
-    What started as a small team of Kevin Ryan Atutubo, and A. Frederick Sansait have now grown into a dynamic group of 20 homegrown professionals. WARP's team now includes software engineers, web developers, quality assurance specialists, and more.
+    What started as a small team of <a href="https://www.prometheus.ph/blogs/smartsolutions" className="text-blue-500">Kevin Ryan Atutubo</a> , and A. Frederick Sansait</a> have now grown into a dynamic group of 20 homegrown professionals. WARP's team now includes software engineers, web developers, quality assurance specialists, and more.
   </p>
 
   <h3 className="text-[#FFFFFF] text-[17px] font-bold sm:text-[28px] pt-10 pb-2">
