@@ -76,7 +76,7 @@ publicationDate: '2024-06-27'
 
   <div style="color: white; font-size: 15px; display: flex; flex-direction: column; gap: 3.5rem;">
     <ul className="text-[#FFFFFF] sm:text-[15px] flex flex-col gap-5">
-      <li className="text-[#FFFFFF] sm:text-[15px]">- Explore WARP’s work for Prometheus at <a href="https://www.behance.net/prometheus-ph/projects" className="text-blue-500">Behance</a>. Connect with A. Frederick and Kevin on LinkedIn.</li>
+      <li className="text-[#FFFFFF] sm:text-[15px]">- Explore WARP’s work for Prometheus at <a href="https://www.behance.net/prometheus-ph/projects" className="text-blue-500">Behance</a>. Connect with <a href="https://www.linkedin.com/in/afredericksansait/" className="text-blue-500">A. Frederick</a> and <a href="https://www.linkedin.com/in/kebatu/"></a>Kevin on LinkedIn.</li>
       <li className="text-[#FFFFFF] sm:text-[15px]">- To learn more about Prometheus, follow its official pages on <a href="https://www.facebook.com/PrometheusPr" className="text-blue-500">Facebook</a> and <a href="https://www.linkedin.com/company/prometheusph/" className="text-blue-500">LinkedIn</a>.</li>
       <li className="text-[#FFFFFF] sm:text-[15px]">- Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
     </ul>
