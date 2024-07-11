@@ -10,10 +10,6 @@ publicationDate: '2024-07-11'
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">
   <img src="/BlogsAssets/creativepassion/benj1.jpg" alt="A photo of Prometheus Creative Director Benjamin Austin Pe" style="border-radius: 15px;">
-
-  <h1 className="text-[#FFFFFF] font-bold text-[20px] sm:text-[35px] pt-5 pb-2">
-    Bringing Global-Standard Software Solutions to Western Visayas
-  </h1>
   
   <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5 sm:pb-10">
     Your comfort zone is a place where doubts, fears, and what-ifs swirl like a storm, holding you back from your dreams. Yet, it’s also where growth, achievement, and transformation lie waiting for those bold enough to step forward.
