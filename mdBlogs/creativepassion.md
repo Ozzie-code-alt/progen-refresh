@@ -38,7 +38,7 @@ Trailblazing his Own Path in Branding and Marketing
   </h2>
 
   <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5 sm:pb-10">
-In response to the limited opportunities, Benj co-founded Deuce, a small brand studio, Deuce Brand Studio. Starting with just one laptop and an external hard drive in a makeshift office, they provided branding services for local brands and personalities.
+In response to the limited opportunities, Benj co-founded a small brand studio, Deuce Brand Studio. Starting with just one laptop and an external hard drive in a makeshift office, they provided branding services for local brands and personalities.
 <br/>
 <br/>
 Benj and his co-founder actively self-studied and enrolled in various courses and workshops to improve their skills. They seized every opportunity to survive, from lecturing students on parliamentary debate and resumé making to judging pageants and photography contests. 
@@ -81,14 +81,14 @@ Now, as Creative Director with a wealth of marketing expertise, Benj chose to st
 For Benj, true success lies not just in individual achievements but in the legacy of inspiration and growth he leaves behind.
 <br/>
 <br/>
-“Big wins cannot happen without the small ones, and that's where we learn the most important lessons. Without grinding through the uncomfortable, we cannot appreciate growth” he said.
+“Big wins cannot happen without the small ones, and that's where we learn the most important lessons. Without grinding through the uncomfortable, we cannot appreciate growth,” he said.
 <br/>
 <br/>
 Benj’s journey is far from over, but with his unwavering belief and vision, the future holds exciting possibilities for Benj and the marketing landscape of Iloilo City.
   </p>
 
 
-  <img src="/BlogsAssets/creativepassion/benj1.jpg" alt="Prometheus Creative Director Benjamin Austin Pe attends the 13th anniversary of Damires Hills Farm and Spa Resort with Prometheus CEO Lcid Crescent Fernandez, COO Blessed Bea Plondaya, ECD Francis Gino Fanega, and Pototan, Iloilo Sangguniang Bayan Member and owner of Damires Hills Paolo Tirador." style="border-radius: 15px;">
+  <img src="/BlogsAssets/creativepassion/benj2.jpg" alt="Prometheus Creative Director Benjamin Austin Pe attends the 13th anniversary of Damires Hills Farm and Spa Resort with Prometheus CEO Lcid Crescent Fernandez, COO Blessed Bea Plondaya, ECD Francis Gino Fanega, and Pototan, Iloilo Sangguniang Bayan Member and owner of Damires Hills Paolo Tirador." style="border-radius: 15px;">
 
 
 
