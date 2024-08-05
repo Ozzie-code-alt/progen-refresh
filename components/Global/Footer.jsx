@@ -47,9 +47,9 @@ const Footer = () => {
             <SocialLink href="https://www.behance.net/prometheus-ph">
               <FaBehance className="w-8 h-8" />
             </SocialLink>
-            <SocialLink href="https://dribbble.com/prometheusph">
+            {/* <SocialLink href="https://dribbble.com/prometheusph">
               <FaDribbble className="w-8 h-8" />
-            </SocialLink>
+            </SocialLink> */}
           </div>
           <p className="text-center text-sm mt-6 font-medium tracking-wide text-white font-ox">
             &copy; Copyright 2024, Prometheus. All Rights Reserved.

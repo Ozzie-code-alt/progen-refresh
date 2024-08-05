@@ -52,9 +52,9 @@ const ThreeColumnFooter = () => {
               <SocialLink href="https://www.behance.net/prometheus-ph">
                 <FaBehance className="w-4 h-4" />
               </SocialLink>
-              <SocialLink href="https://dribbble.com/prometheusph">
+              {/* <SocialLink href="https://dribbble.com/prometheusph">
                 <FaDribbble className="w-4 h-4" />
-              </SocialLink>
+              </SocialLink> */}
             </div>
           </FooterColumn>
           <FooterColumn>
