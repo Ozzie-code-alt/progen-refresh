@@ -65,6 +65,7 @@ const ContactForm = () => {
         First Name: ${formData.firstName}  \n
         Last Name: ${formData.lastName}  \n
         Number:  ${formData.number}  \n
+        Email: ${formData.email} \n
         Services Selected: \n
         ${formData.services.map((service) => {
           return `${service}`;
