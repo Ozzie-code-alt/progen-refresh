@@ -25,7 +25,6 @@ Kevin Ryan Atutubo was working at a corporate job in Metro Manila when he decide
 In 2017, Kevin made a big change and moved back to his hometown, Iloilo City, to start working in marketing the way he imagined—by conveying great stories through websites and helping businesses grow online.
  </p>
 
-
 <h2 className="text-[#FFFFFF] text-[18px] font-bold  sm:text-[30px] pt-10 pb-1  ">
 Pivot to Full-Service Marketing
 </h2>
@@ -38,7 +37,7 @@ Kevin quickly started his own company that focuses on digital marketing. He shar
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5   ">
 In 2018, Kevin joined the Global Shapers Iloilo. This group is made up of young people who want to make the world a better place, and they enabled Kevin to lead their technology efforts. That same year, he met Lcid Fernandez, who launched  <a href="https://www.prometheus.ph/" className="text-blue-500">Prometheus</a>, the leading full-service marketing agency and public relations firm in Western Visayas.
-<br/> 
+<br/>
 <br/>
 A conversation about shared visions and goals forged a strong friendship and a future collaboration that would change Kevin’s career trajectory. When his business partners moved to Vietnam, Kevin made the big decision to stay in the Philippines.
 </p>
@@ -69,8 +68,6 @@ Kevin's story shows how moving back home and starting over in his career turned 
 
 </p>
 
-
-
 <img src="/BlogsAssets/KevAssets/KevFooter.webp" alt="Descriptive Text" style="border-radius: 15px;">
 
 <div style="color: white; font-size: 15px; display: flex; flex-direction: column;  gap: 3.5rem; ">
@@ -80,7 +77,7 @@ Kevin's story shows how moving back home and starting over in his career turned 
 <li className="text-[#FFFFFF] sm:text-[15px]  "> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
 </ul>
- 
+
 </div>
 <!-- <meta name="author" content="Prometheus" />
 <meta name="publish_date" property="og:publish_date" content="2024-05-09"> -->

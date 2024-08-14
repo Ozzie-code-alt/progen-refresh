@@ -16,9 +16,9 @@ publicationDate: '2024-06-27'
   </h1>
   
   <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5 sm:pb-10">
-    WARP Technologies and Innovations Inc. is a pioneering software solutions company that excels in crafting web and mobile applications. 
+    WARP Technologies and Innovations Inc. is a pioneering software solutions company that excels in crafting web and mobile applications.
     <br/><br/>
-    The tech company distinguishes itself through its ability to craft customized web and software solutions that are meticulously tailored to meet the unique needs of each client. 
+    The tech company distinguishes itself through its ability to craft customized web and software solutions that are meticulously tailored to meet the unique needs of each client.
     <br/><br/>
     This innovative venture was the first significant investment made by <a href="https://www.prometheus.ph/" className="text-blue-500">Prometheus</a> before it established itself as the award-winning marketing agency it is today.
   </p>

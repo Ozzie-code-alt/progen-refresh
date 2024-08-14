@@ -26,13 +26,12 @@ As a Creative Director at Prometheus, the first and only award-winning marketing
   </h2>
 
   <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5 sm:pb-10">
-His passion for marketing grew in the hospitality and events industries, where Benj worked with renowned local and international hotel brands. Additionally, he contributed to local high-profile live events like Iloilo Dinagyang and Iloilo Live Events Alliance. 
+His passion for marketing grew in the hospitality and events industries, where Benj worked with renowned local and international hotel brands. Additionally, he contributed to local high-profile live events like Iloilo Dinagyang and Iloilo Live Events Alliance.
 <br/>
 <br/>
 However, finding consistent opportunities in Iloilo City was challenging due to the nascent state of the marketing industry there.
   </p>
   
-
   <h2 className="text-[#FFFFFF] text-[18px] font-bold sm:text-[30px] pt-10 pb-1">
 Trailblazing his Own Path in Branding and Marketing
   </h2>
@@ -41,10 +40,9 @@ Trailblazing his Own Path in Branding and Marketing
 In response to the limited opportunities, Benj co-founded a small brand studio, Deuce Brand Studio. Starting with just one laptop and an external hard drive in a makeshift office, they provided branding services for local brands and personalities.
 <br/>
 <br/>
-Benj and his co-founder actively self-studied and enrolled in various courses and workshops to improve their skills. They seized every opportunity to survive, from lecturing students on parliamentary debate and resumé making to judging pageants and photography contests. 
+Benj and his co-founder actively self-studied and enrolled in various courses and workshops to improve their skills. They seized every opportunity to survive, from lecturing students on parliamentary debate and resumé making to judging pageants and photography contests.
 
   </p>
-  
   
   <h2 className="text-[#FFFFFF] text-[18px] font-bold sm:text-[30px] pt-10 pb-1">
 Rising Through Challenges
@@ -65,7 +63,7 @@ Next Generation of Marketing Creatives in Iloilo
 In 2021, Benj joined Prometheus as a Senior Graphic Artist. He was quickly promoted to Art Director in the same year, and became Creative Director in 2023. With this new role, Benj faced challenges that tested his adaptability and leadership. Yet, it was these constraints that fueled his creativity and led to specific, measurable, and impactful solutions for the marketing agency’s clients.
 <br/>
 <br/>
-At Prometheus, Benj found a team of like-minded individuals and the right resources to make a significant impact in the marketing industry within Iloilo City. 
+At Prometheus, Benj found a team of like-minded individuals and the right resources to make a significant impact in the marketing industry within Iloilo City.
 
   </p>
   <h2 className="text-[#FFFFFF] text-[18px] font-bold sm:text-[30px] pt-10 pb-1">
@@ -75,7 +73,7 @@ The Ethos of Constant Learning
 Benj’s career has always been about breaking through limits and believing in the power of continuous learning. As a young graphic artist, he viewed new challenges as a stepping stone for growth. His early experiences were marked by an eagerness to adapt and transform obstacles into opportunities for development.
 <br/>
 <br/>
-Now, as Creative Director with a wealth of marketing expertise, Benj chose to stay outside the bustling metro to create opportunities and pioneer a marketing revolution in the region. More than his personal success, he is committed to supporting and empowering his team as he pays forward to the support he received. 
+Now, as Creative Director with a wealth of marketing expertise, Benj chose to stay outside the bustling metro to create opportunities and pioneer a marketing revolution in the region. More than his personal success, he is committed to supporting and empowering his team as he pays forward to the support he received.
 <br/>
 <br/>
 For Benj, true success lies not just in individual achievements but in the legacy of inspiration and growth he leaves behind.
@@ -87,12 +85,7 @@ For Benj, true success lies not just in individual achievements but in the legac
 Benj’s journey is far from over, but with his unwavering belief and vision, the future holds exciting possibilities for Benj and the marketing landscape of Iloilo City.
   </p>
 
-
   <img src="/BlogsAssets/creativepassion/benj2.jpg" alt="Prometheus Creative Director Benjamin Austin Pe attends the 13th anniversary of Damires Hills Farm and Spa Resort with Prometheus CEO Lcid Crescent Fernandez, COO Blessed Bea Plondaya, ECD Francis Gino Fanega, and Pototan, Iloilo Sangguniang Bayan Member and owner of Damires Hills Paolo Tirador." style="border-radius: 15px;">
-
-
-
-
 
 <!-- ending links -->
   <div style="color: white; font-size: 15px; display: flex; flex-direction: column; gap: 3.5rem;">

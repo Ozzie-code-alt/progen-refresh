@@ -43,7 +43,6 @@ The campaign employed a multi-faceted approach to reach and engage with potentia
             Fourth District while supporting local businesses.
 </p>
 
-
 <img src="/BlogsAssets/KwatroDistritoBlogAssets/7.webp" alt="Descriptive Text" style="border-radius: 15px;">
 <p className="text-[#FFFFFF] sm:text-[28px]  pb-10 ">
             The campaign also utilized an online show called Kwatro Puntos

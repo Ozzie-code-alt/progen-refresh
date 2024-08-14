@@ -58,7 +58,7 @@ date: '2020-01-01'
        Establishing a creative team outside of Metro Manila presented
               unique challenges. Prometheus CEO, Lcid Fernandez,
               <a className="text-blue-500" href="https://www.prometheus.ph/beautyofthestruggle">
-              
+
                 shared that he initially faced skepticism when pitching the idea
                 of a marketing agency in Iloilo.
               </a>

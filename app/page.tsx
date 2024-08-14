@@ -8,7 +8,14 @@ export default function Home() {
     <div className="flex h-auto w-auto flex-col">
       <div className="flex flex-col items-center justify-center">
         <TransitionComponent/>
+
+
+        
         <LandingPageNOSSR/>
+
+
+
+
       </div>
     </div>
   );

@@ -84,8 +84,6 @@ date: '2020-01-01'
               story.”
 </p>
 
-
-
 <div>
 <div className="w-full pb-10  flex justify-center items-center ">
 <img

@@ -44,7 +44,7 @@ date: '2020-01-01'
 <ul style="color: white; font-size: 20px">
 <li> - Innovative Entrepreneur of the Year at the IlonggoEntrepreneur Awards 2023 </li>
 <li> - Dungganon nga Barotacnon Awardee for Entrepreneurship by the Municipality of Barotac Nuevo and JCI Barotac Nuevo Tamasak </li>
-<li> - Nominated in the ASEAN Business Awards</li> 
+<li> - Nominated in the ASEAN Business Awards</li>
 <li> - Nominated in the INJAP Young Ilonggo Entrepreneur Awards </li>
 </ul>
 <div className="w-full pb-10  flex justify-center items-center ">
@@ -67,7 +67,7 @@ date: '2020-01-01'
 <li className="text-[#FFFFFF] sm:text-[15px]  "> - Reach Prometheus via email at <a href="mailto:marketing@prometheus.ph" className="text-blue-500">marketing@prometheus.ph</a>.</li>
 
 </ul>
- 
+
 </div>
 <!-- <meta name="author" content="Prometheus" />
 <meta name="publish_date" property="og:publish_date" content="2024-05-09"> -->
