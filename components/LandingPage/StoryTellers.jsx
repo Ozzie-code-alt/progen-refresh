@@ -31,12 +31,6 @@ function StoryTellers() {
             imgColored: "/LandingPageAssets/storytellers/bea_wacky.webp",
             role: "Chief Operations Officer"
         },
-                {
-            name: "Jesse Bryant Serviano",
-            img: "/LandingPageAssets/storytellers/jesse_formal.webp",
-            imgColored: "/LandingPageAssets/storytellers/jesse_wacky.webp",
-            role: "Promises - Chief Creative Officer"
-        },
         {
             name: "Sam Villacorta",
             img: "/LandingPageAssets/storytellers/sam_formal.webp",
