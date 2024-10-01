@@ -9,7 +9,7 @@ function StoryTellers() {
             name: "BENJAMIN AUSTIN PE",
             img: "/LandingPageAssets/storytellers/benj_formal.webp",
             imgColored: "/LandingPageAssets/storytellers/benj_wacky.webp",
-            role: "Art Director"
+            role: "Creative Director"
         },
 
         {
