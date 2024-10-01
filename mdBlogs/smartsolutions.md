@@ -55,13 +55,13 @@ Kevin decided to join WARP. At first, it was just him and A Frederick Molejona S
 <h3 className="text-[#FFFFFF] text-[17px] font-bold sm:text-[28px] pt-10 pb-2  ">Tech Innovation in Iloilo</h3>
 
 <p className="text-[#FFFFFF] text-[15px] sm:text-[28px] pb-5  sm:pb-10">
-Today, in 2024, WARP has grown to a team of 20 people and is about to launch its largest project yet. Under Kevin’s leadership as Chief Technical Officer, WARP is set to become a beacon of technological innovation in Iloilo with its streamlined solutions for software services.
+Today, in 2024, WARP has grown and is about to launch its largest project yet. Under Kevin’s leadership as Chief Technical Officer, WARP is set to become a beacon of technological innovation in Iloilo with its streamlined solutions for software services.
 <br/>
 <br/>
 Kevin’s journey from a corporate job in Manila to Iloilo’s leading agency in full-service marketing is a testament to the power of returning home and reinventing one’s career path. It highlights the potential for local talent to drive global-standard technological advancements, proving that significant industry shifts can indeed start in one’s own home.
 <br/>
 <br/>
-Now, WARP has grown to a team of 20 people and is about to start its biggest project ever. Kevin, as the Chief Technical Officer, has shaped WARP to become a leader in technology in Iloilo.
+Now, WARP has grown and is about to start its biggest project ever. Kevin, as the Chief Technical Officer, has shaped WARP to become a leader in technology in Iloilo.
 <br/>
 <br/>
 Kevin's story shows how moving back home and starting over in his career turned out to be a great decision. He moved from a corporate job in Manila to lead a top marketing agency in Iloilo. This shows that you can achieve great things right where you are, using local skills to meet global standards.

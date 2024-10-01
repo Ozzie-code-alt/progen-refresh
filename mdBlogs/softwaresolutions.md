@@ -59,7 +59,7 @@ publicationDate: '2024-06-27'
     <br/><br/>
     This initiative not only elevates the technological landscape of the region but also provides valuable opportunities for local talent to shine on an international stage.
     <br/><br/>
-    What started as <a href="https://www.prometheus.ph/blogs/smartsolutions" className="text-blue-500"> a small team of Kevin Ryan Atutubo, and A. Frederick Sansait</a>  have now grown into a dynamic group of 20 homegrown professionals. WARP's team now includes software engineers, web developers, quality assurance specialists, and more.
+    What started as <a href="https://www.prometheus.ph/blogs/smartsolutions" className="text-blue-500"> a small team of Kevin Ryan Atutubo, and A. Frederick Sansait</a>  have now grown into a dynamic group of homegrown professionals. WARP's team now includes software engineers, web developers, quality assurance specialists, and more.
   </p>
 
   <h3 className="text-[#FFFFFF] text-[17px] font-bold sm:text-[28px] pt-10 pb-2">
@@ -72,7 +72,7 @@ publicationDate: '2024-06-27'
     With a clear vision, dedicated mission, and an impressive portfolio of services, WARP is leading the charge in bringing innovative software solutions to the forefront, both locally and globally.
   </p>
 
-  <img src="/BlogsAssets/softwaresolutions/WARPGroup3.webp" alt="With 20 engineers, WARP Technologies and Innovations Inc. is dedicated to transforming the digital landscape in Iloilo and Western Visayas with world-class superior software products and web solutions." style="border-radius: 15px;">
+  <img src="/BlogsAssets/softwaresolutions/WARPGroup3.webp" alt="WARP Technologies and Innovations Inc. is dedicated to transforming the digital landscape in Iloilo and Western Visayas with world-class superior software products and web solutions." style="border-radius: 15px;">
 
   <div style="color: white; font-size: 15px; display: flex; flex-direction: column; gap: 3.5rem;">
     <ul className="text-[#FFFFFF] sm:text-[15px] flex flex-col gap-5">
