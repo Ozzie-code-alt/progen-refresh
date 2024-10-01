@@ -41,13 +41,13 @@ function StoryTellers() {
             name: "A FREDERICK SANSAIT",
             img: "/LandingPageAssets/storytellers/a_formal.webp",
             imgColored: "/LandingPageAssets/storytellers/a_wacky.webp",
-            role: "WARP - Chief Technical Officer"
+            role: "WARP - Chief Operations Officer"
         },
         {
             name: "Kevin Atutubo",
             img: "/LandingPageAssets/storytellers/kevin_formal.webp",
             imgColored: "/LandingPageAssets/storytellers/kevin_wacky.webp",
-            role: "WARP - Chief Operating Officer"
+            role: "WARP - Chief Technical Officer"
         },
         {
             name: "Alyanna Comprendio",
