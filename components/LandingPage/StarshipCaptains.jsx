@@ -4,6 +4,7 @@ import StarsCanvas from '../Global/StarCanvas';
 import StoryTellers from './StoryTellers';
 import {Oxanium} from 'next/font/google';
 import localFont from 'next/font/local';
+import CardSection from '@/components/LandingPage/ProminentCardSection'
 const OxaniumFont = Oxanium({ weights: 100, subsets: ["latin"] });
 const MoonlanderFont = localFont({src:'../../Fonts/Moonlander.ttf'});
 
@@ -49,6 +50,10 @@ const StarshipCaptains = () => {
         CERTIFICATION AND AWARDS
       </h1>
     </div>
+
+    <div className="mt-20">
+      <CardSection/>
+    </div> 
 
     <div className="relative flex flex-col justify-center items-center text-center space-y-10 md:space-y-0 md:flex-row md:space-x-20 mt-10 mb-20">
       <div className="flex flex-row flex-wrap items-center justify-center">
