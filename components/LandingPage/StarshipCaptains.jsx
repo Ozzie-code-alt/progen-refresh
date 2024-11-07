@@ -45,10 +45,6 @@ const StarshipCaptains = () => {
       <StoryTellers />
     </div>
 
-    <div className="mt-20">
-      <CardSection/>
-    </div> 
-
     <div className="w-3/5 text-center z-10 mt-40 mmb-10">
       <h1 className={`${MoonlanderFont.className} font-black text-xl md:text-4xl text-prOrange`}>
         CERTIFICATION AND AWARDS
@@ -108,6 +104,9 @@ const StarshipCaptains = () => {
         />
       </div>
     </div>
+    <div className="mt-1 mb-2">
+      <CardSection/>
+    </div> 
   </div>
   )
 }
